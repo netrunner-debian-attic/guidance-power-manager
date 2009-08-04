@@ -1,0 +1,31 @@
+Source: guidance-power-manager
+Section: kde
+Priority: optional
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Guillaume Martres <smarter@ubuntu.com>
+Build-Depends: cdbs (>= 0.4.52ubuntu7), debhelper (>= 7), python-support,
+ kdelibs5-dev (>= 4:4.2.85), python-qt4-dev, python-kde4-dev,
+ python-dbus, x11proto-xf86vidmode-dev, x11proto-scrnsaver-dev,
+ libxxf86vm-dev, libxss-dev
+Standards-Version: 3.8.1
+Vcs-Bzr: lp:~kubuntu-members/guidance/powermanager-ubuntu 
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-members/guidance/powermanager-ubuntu
+
+Package: guidance-power-manager
+Architecture: any
+Depends: ${python:Depends}, ${misc:Depends}, hal, python-kde4, python-dbus
+Conflicts: guidance-backends
+Replaces: kde-guidance-powermanager (<< 4:4.0.83-0ubuntu1), guidance-backends
+Description: A frontend to HAL's power features for KDE
+ A powermanagement applet that supports screen brightness, battery level,
+ plugged/unplugged notices and laptop lid closing actions.
+
+Package: kde-guidance-powermanager
+Architecture: all
+Depends: ${misc:Depends}, guidance-power-manager
+Description: A frontend to HAL's power features for KDE (dummy package)
+ A powermanagement applet that supports screen brightness, battery level,
+ plugged/unplugged notices and laptop lid closing actions.
+ .
+ This is a dummy package to depend on guidance-power-manager for
+ upgrades, it can be safely removed

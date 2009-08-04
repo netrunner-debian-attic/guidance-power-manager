@@ -1,0 +1,192 @@
+guidance-power-manager (4:4.3.0-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 04 Aug 2009 12:19:30 +0100
+
+guidance-power-manager (4:4.2.4-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+  * Remove unnecessary build-deps on cmake
+  * Bump kdelibs5-dev build-dep to the earliest version that depends on cmake
+  * Switch over to pkg-kde-tools' kde.mk, bumping debhelper/compat version to
+    7
+  * Binary packages depend on {misc:Depends} to make lintian a happy capmer
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Wed, 03 Jun 2009 14:25:12 -0400
+
+guidance-power-manager (4:4.2.0-0ubuntu2) jaunty; urgency=low
+
+  * No change rebuild to build with Python 2.6 (LP: #341791).
+
+ -- Alessio Treglia <quadrispro@ubuntu.com>  Sat, 14 Mar 2009 03:18:30 +0100
+
+guidance-power-manager (4:4.2.0-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release:
+    - Specify a build-depends version of (>= 2.6.2) for cmake
+    - Make build-depends lines less than 80 chars
+    - Remove all patches, all have been merged upstream
+    - Remove quilt build-dep
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Tue, 03 Feb 2009 21:29:19 -0500
+
+guidance-power-manager (4:4.1.2-0ubuntu5) intrepid; urgency=low
+
+  * Update 01-we-dont-need-no-hal.diff to also catch the case where HAL
+    vanishes at the wrong point when polling (LP: #281918)
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 17 Oct 2008 14:03:39 -0400
+
+guidance-power-manager (4:4.1.2-0ubuntu4) intrepid; urgency=low
+
+  * Add 03-no-lid-special-behaviour-disable.diff to disable call to
+    power plugged/unplugged in init if no lid is found; it will in any
+    case be done when the poll starts, and calling it now just make us
+    crash. (LP: #254476)
+
+ -- Andreas Wenning <awen@awen.dk>  Fri, 17 Oct 2008 02:02:53 +0200
+
+guidance-power-manager (4:4.1.2-0ubuntu3) intrepid; urgency=low
+
+  * Add 02-correct-critical-battery-action.diff to fix index errors and
+    find correct action when battery is at the critical level (LP: #254476) 
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 16 Oct 2008 00:40:37 -0400
+
+guidance-power-manager (4:4.1.2-0ubuntu2) intrepid; urgency=low
+
+  * Fixes crashes due to lack of HAL (LP: #214678)
+    - Readd debian/patches/series
+    - Add debian/patches/01-we-dont-need-no-hal.diff
+    - Catch crashes due to lack of communication with HAL
+      - On startup try every 30 seconds to establish connection
+      - After start do something useful in the meantime and connection will
+        return automatically when HAL does 
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 10 Oct 2008 22:17:40 -0400
+
+guidance-power-manager (4:4.1.2-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release
+  * debian/patches/geometry.patch:
+    - removed, applied upstream
+  * removed debian/patches/series
+
+ -- Guillaume Martres <smarter@ubuntu.com>  Sat, 27 Sep 2008 16:49:07 +0200
+
+guidance-power-manager (4:4.1.1-0ubuntu1) intrepid; urgency=low
+
+  [ Jonathan Riddell ]
+  * Add geometry.patch from Adam Turowski to show tooltip in right place
+
+
+  [ Guillaume Martres ]
+  * New upstream release
+  * debian/rules:
+    - removed THIS_SHOULD_GO_TO_UNSTABLE, not needed with latest cdbs
+  * debian/control:
+    - ensure cdbs version is (>= 0.4.52ubuntu7)
+  * removed debian/cdbs, not needed with kde4.mk
+  * debian/watch:
+    - updated url
+  * debian/patches/kubuntu_02_keyboard_shortcuts.diff:
+    - removed, applied upstream
+  * debian/README.source:
+    - removed, not necessary anymore
+
+ -- Guillaume Martres <smarter@ubuntu.com>  Tue, 23 Sep 2008 14:27:53 +0200
+
+guidance-power-manager (4:4.1.0-0ubuntu4) intrepid; urgency=low
+
+  * Drop kubuntu_01-no-ixf86misc.diff and kubuntu01-no-ixf86misc.patch and use
+    internal copy so that guidance-backends can be removed from the archive
+    - Use internal ixf86misc
+    - Change from arch all to arch any
+    - Conflict and Replace guidance-backends
+    - Drop depends on guidance-backends
+    - Add libxxf86vm-dev, libxss-dev, x11proto-xf86vidmode-dev, and
+      x11proto-scrnsaver-dev to build-dep for ixf86misc
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 12 Sep 2008 06:47:38 -0400
+
+guidance-power-manager (4:4.1.0-0ubuntu3) intrepid; urgency=low
+
+  * Add quilt as build-dep, fix FTBFS.
+  * Add >= 0.4.52ubuntu2 as cdbs version to Build-Depends field in
+    debian/control.
+
+ -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Thu, 07 Aug 2008 11:31:52 +0200
+
+guidance-power-manager (4:4.1.0-0ubuntu2) intrepid; urgency=low
+
+  * Add kubuntu_02_keyboard_shortcuts.diff for keyboard global shortcuts
+  * Convert to kde4.mk from cdbs
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 04 Aug 2008 20:35:16 +0100
+
+guidance-power-manager (4:4.1.0-0ubuntu1) intrepid; urgency=low
+
+  [ Steve Stalcup ]
+  * New upstream release, 4.1.0 final
+
+  [ Guillaume Martres ]
+  * debian/watch:
+    - updated location
+  * debian/patches/kubuntu02-klocalize-crash.patch:
+    - removed, applied upstream
+  * debian/changelog:
+    - removed useless "(LP: #nnnn)" on initial release
+
+ -- Guillaume Martres <smarter@ubuntu.com>  Sun, 27 Jul 2008 15:31:32 +0200
+
+guidance-power-manager (4:4.0.98-0ubuntu1) intrepid; urgency=low
+
+  [ Steve Stalcup ]
+  * New upstream release (LP: #248543)
+
+  [ Scott Kitterman ]
+  * Add guidance-backends to depends
+    - When guidance-backends is ready to be removed from the archive,
+      drop this and debian/patches/kubuntu01-no-ixf86misc.patch
+  * Add README.source
+  * Change maintainer from MOTU to Ubuntu Core Dev
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 14 Jul 2008 23:40:08 -0400
+
+guidance-power-manager (4:4.0.83-0ubuntu3) intrepid; urgency=low
+
+  * Add debian/patches/kubuntu01-no-ixf86misc.patch to remove ixf86misc
+    files from modules/CMakeLists.txt (LP: #245339)
+    - ixf86misc is supplied by guidance-backends and is part of Guidance's
+      display functionality and not power management
+  * Add debian/patches/kubuntu02-klocalize-crash.patch to remove unimplemented
+    call to python-kde4 (LP: #244830)
+  * Drop ixf86misc related build-deps and depends:
+    - libxxf86vm-dev, x11proto-scrnsaver-dev, libxrandr-dev, libxss-dev
+    - ${shlibs:Depends} (package is pure Python now)
+  * Change guidance-power-manager from arch any to arch all
+  * Drop unused build-dep on quilt and remove /usr/share/cdbs/1/rules/quilt.mk
+    from debian/cdbs/kde.mk
+  * Add simple-patchsys.mk to debian/rules 
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 05 Jul 2008 12:13:42 -0400
+
+guidance-power-manager (4:4.0.83-0ubuntu2) intrepid; urgency=low
+
+  * guidance-power-manager Replaces: kde-guidance-powermanager (<<
+    4:4.0.83-0ubuntu1) to help upgrades
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 03 Jul 2008 14:49:41 +0100
+
+guidance-power-manager (4:4.0.83-0ubuntu1) intrepid; urgency=low
+
+  * New upstream version
+
+ -- Guillaume Martres <smarter@ubuntu.com>  Thu, 26 Jun 2008 23:03:46 +0200
+
+guidance-power-manager (4.1.0~svn080618-0ubuntu1) intrepid; urgency=low
+
+  * Initial release
+
+ -- Guillaume Martres <smarter@ubuntu.com>  Tue, 17 Jun 2008 15:22:44 +0200

@@ -1,0 +1,29 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/pkg-kde-tools/makefiles/1/cdbs/kde.mk
+
+binary-install/guidance-power-manager::
+	dh_pysupport
+
+DEBIAN_DIR := $(shell echo ${MAKEFILE_LIST} | awk '{print $$1}' | xargs dirname )
+
+get-orig-source:
+	cd ${DEBIAN_DIR}/.. && \
+	version=$$(uscan --force-download --dehs | \
+		sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p') && \
+	tar xf ../guidance-power-manager-$${version}.tar.bz2 && \
+	tar czf ${CURDIR}/guidance-power-manager_$${version}.orig.tar.gz guidance-power-manager-$${version} && \
+	rm -r guidance-power-manager-$${version}
+
+DATE := $(shell date +%y%m%d)
+VERSION := $(word 1, $(subst ~, ,$(DEB_UPSTREAM_VERSION)))
+DIR := ${DEB_SOURCE_PACKAGE}-${VERSION}~svn${DATE}
+TAR := ${DEB_SOURCE_PACKAGE}_${VERSION}~svn${DATE}.orig.tar.gz
+
+get-orig-svn:
+	cd ${DEBIAN_DIR}/.. && \
+	svn export svn://anonsvn.kde.org/home/kde/trunk/extragear/utils/guidance-power-manager ${DIR} && \
+	tar czf ${CURDIR}/${TAR} ${DIR} && \
+	rm -r ${DIR}
+
