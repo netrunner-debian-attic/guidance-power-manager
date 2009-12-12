@@ -160,7 +160,7 @@ class PowerManager(QWidget):
     def _checkOldConfig(self, value, blank):
         """ Convert old numerical values to keywords. """
         try:
-            num_val = value.toInt()[0]
+            num_val = int(value)
         except ValueError:
             return value
         if blank:

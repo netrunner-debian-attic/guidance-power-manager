@@ -6,7 +6,7 @@ XSBC-Original-Maintainer: Guillaume Martres <smarter@ubuntu.com>
 Build-Depends: cdbs (>= 0.4.52ubuntu7), debhelper (>= 7), python-support,
  kdelibs5-dev (>= 4:4.2.85), python-qt4-dev, python-kde4-dev,
  python-dbus, x11proto-xf86vidmode-dev, x11proto-scrnsaver-dev,
- libxxf86vm-dev, libxss-dev
+ libxxf86vm-dev, libxss-dev, libxrandr-dev, quilt (>= 0.40)
 Standards-Version: 3.8.1
 Vcs-Bzr: lp:~kubuntu-members/guidance/powermanager-ubuntu 
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-members/guidance/powermanager-ubuntu
