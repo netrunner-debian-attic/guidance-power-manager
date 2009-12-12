@@ -1,0 +1,1720 @@
+# translation of guidance.po to Italian
+#
+# Nicola Ruggero <nixprog.adsl@tiscali.it>, 2006.
+# Nicola Ruggero <nicola@nxnt.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2007-06-06 16:04+0200\n"
+"Last-Translator: Nicola Ruggero <nicola@nxnt.org>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+#, fuzzy
+msgid "Do nothing"
+msgstr "nessuna operazione"
+
+#: guidance-power-manager.py:184
+#, fuzzy
+msgid "Blank screen"
+msgstr "oscuramento dello schermo"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "Sospendi"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "Iberna"
+
+#: guidance-power-manager.py:187 ui.py:93
+#, fuzzy
+msgid "Shutdown"
+msgstr "spegnimento"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr ""
+
+#: guidance-power-manager.py:208
+#, fuzzy
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "Risparmio energetico"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr ""
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr ""
+
+#: guidance-power-manager.py:523
+#, fuzzy
+msgid "CPU frequency policy changed to dynamic."
+msgstr "Regola frequenza CPU cambiata a %1."
+
+#: guidance-power-manager.py:525
+#, fuzzy
+msgid "CPU frequency policy changed to performance."
+msgstr "Regola frequenza CPU cambiata a %1."
+
+#: guidance-power-manager.py:527
+#, fuzzy
+msgid "CPU frequency policy changed to powersave."
+msgstr "Regola frequenza CPU cambiata a %1."
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "Regola frequenza CPU cambiata a %1."
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "La batteria è stata rimossa."
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "La batteria è stata inserita."
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>Batteria:</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr " completamente carica"
+
+#: guidance-power-manager.py:716
+#, fuzzy
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr " %i:%02ih in ricarica"
+
+#: guidance-power-manager.py:718
+#, fuzzy
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr " %i:%02ih rimanente"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+#, fuzzy
+msgid "Laptop lid is closed, hibernating now."
+msgstr "Il coperchio del portatile è chiuso, %1 in corso"
+
+#: guidance-power-manager.py:763
+#, fuzzy
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "Il coperchio del portatile è chiuso, %1 in corso"
+
+#: guidance-power-manager.py:765
+#, fuzzy
+msgid "Laptop lid is closed, suspending now."
+msgstr "Il coperchio del portatile è chiuso, %1 in corso"
+
+#: guidance-power-manager.py:769
+#, fuzzy
+msgid "Laptop lid is closed, shutting down now."
+msgstr "Il coperchio del portatile è chiuso, %1 in corso"
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "Batteria %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "non presente"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "In carica (%p%)"
+
+#: guidance-power-manager.py:823
+#, fuzzy
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "In carica (%p%)"
+
+#: guidance-power-manager.py:825
+#, fuzzy
+msgid "Discharging (%p%)"
+msgstr "In carica (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr ""
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>Frequenza CPU:</b>"
+
+#: guidance-power-manager.py:859
+#, fuzzy
+msgid "Processor %1"
+msgstr "Processore %i"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+#, fuzzy
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>Frequenza CPU:</b>"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "L'adattatore AC è stato staccato, passaggio alla modalità batteria."
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "L'adattatore AC è stato attaccato, passaggio alla modalità AC."
+
+#: guidance-power-manager.py:1006
+#, fuzzy
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr "Stai per esaurire la batteria, %1 in corso"
+
+#: guidance-power-manager.py:1008
+#, fuzzy
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr "Stai per esaurire la batteria, %1 in corso"
+
+#: guidance-power-manager.py:1010
+#, fuzzy
+msgid "You are about to run out of battery power, suspending now."
+msgstr "Stai per esaurire la batteria, %1 in corso"
+
+#: guidance-power-manager.py:1012
+#, fuzzy
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "Stai per esaurire la batteria, %1 in corso"
+
+#: guidance-power-manager.py:1014
+#, fuzzy
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "Stai per esaurire la batteria, %1 in corso"
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "Hai la batteria scarica."
+
+#: guidance-power-manager.py:1051
+#, fuzzy
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "Sistema inattivo per almeno %s minuti, %s in corso."
+msgstr[1] "Sistema inattivo per almeno %s minuti, %s in corso."
+
+#: guidance-power-manager.py:1053
+#, fuzzy
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "Sistema inattivo per almeno %s minuti, %s in corso."
+msgstr[1] "Sistema inattivo per almeno %s minuti, %s in corso."
+
+#: guidance-power-manager.py:1055
+#, fuzzy
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] "Sistema inattivo per almeno %s minuti, %s in corso."
+msgstr[1] "Sistema inattivo per almeno %s minuti, %s in corso."
+
+#: guidance-power-manager.py:1057
+#, fuzzy
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] "Sistema inattivo per almeno %s minuti, %s in corso."
+msgstr[1] "Sistema inattivo per almeno %s minuti, %s in corso."
+
+#: guidance-power-manager.py:1059
+#, fuzzy
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "Sistema inattivo per almeno %s minuti, %s in corso."
+msgstr[1] "Sistema inattivo per almeno %s minuti, %s in corso."
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "Informazioni su..."
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+#, fuzzy
+msgid "Guidance Power Manager"
+msgstr "Gestione energia"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr ""
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr ""
+
+#: ui.py:6
+#, fuzzy
+msgid "General Settings"
+msgstr "Impostazioni"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr ""
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr ""
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr ""
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr ""
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr ""
+
+#: ui.py:24 ui.py:48 ui.py:54
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+
+#: ui.py:27 ui.py:51 ui.py:57
+#, fuzzy
+msgid " min"
+msgstr "1 minuto"
+
+#: ui.py:30 ui.py:60
+#, fuzzy
+msgid "CPU frequency scaling policy"
+msgstr "Regola frequenza CPU cambiata a %1."
+
+#: ui.py:33
+#, fuzzy
+msgid "Battery Powered"
+msgstr "Batteria %i"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr ""
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr ""
+
+#: ui.py:63
+#, fuzzy
+msgid "When Laptop Lid Closed"
+msgstr "Il coperchio del portatile è chiuso, %1 in corso"
+
+#: ui.py:69
+#, fuzzy
+msgid "Lock screen"
+msgstr "Secondo schermo"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr ""
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr ""
+
+#: ui.py:81
+#, fuzzy
+msgid "Suspend to Disk"
+msgstr "Sospendi"
+
+#: ui.py:84
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr ""
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr ""
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "Halt (0)"
+#~ msgstr "Arresto (0)"
+
+#~ msgid "Single User Mode (1)"
+#~ msgstr "Modalità utente singolo (1)"
+
+#~ msgid "Multiuser mode with Networking (2)"
+#~ msgstr "Modalità multi-utente con rete (2)"
+
+#~ msgid "Multiuser mode (3)"
+#~ msgstr "Modalità multi-utente (3)"
+
+#~ msgid "GUI Multiuser mode (5)"
+#~ msgstr "Modalità multi-utente con interfaccia (5)"
+
+#~ msgid "Reboot (6)"
+#~ msgstr "Riavvio (6)"
+
+#~ msgid "Description is being loaded."
+#~ msgstr "Caricamento descrizione in corso."
+
+#~ msgid "not running"
+#~ msgstr "non in esecuzione"
+
+#~ msgid "Couldn't fetch a description from apt."
+#~ msgstr "Impossibile ottenere la descrizione da apt."
+
+#~ msgid "running"
+#~ msgstr "in esecuzione"
+
+#~ msgid "Multiuser Mode (2)"
+#~ msgstr "Modalità multi-utente (2)"
+
+#~ msgid "Multiuser Mode (3)"
+#~ msgstr "Modalità multi-utente (3)"
+
+#~ msgid "Multiuser Mode (4)"
+#~ msgstr "Modalità multi-utente (4)"
+
+#~ msgid "Multiuser Mode (5)"
+#~ msgstr "Modalità multi-utente (5)"
+
+#~ msgid "Could not extract description."
+#~ msgstr "Impossibile estrarre la descrizione."
+
+#~ msgid "Service Configuration"
+#~ msgstr "Configurazione servizio"
+
+#~ msgid "Run level:"
+#~ msgstr "Run level:"
+
+#~ msgid "Service"
+#~ msgstr "Servizio"
+
+#~ msgid "Start at Boot"
+#~ msgstr "Carica all'avvio"
+
+#~ msgid "Status"
+#~ msgstr "Stato"
+
+#~ msgid "Service Details"
+#~ msgstr "Dettagli servizio"
+
+#~ msgid "Description:"
+#~ msgstr "Descrizione:"
+
+#~ msgid "Start during boot"
+#~ msgstr "Carica durante l'avvio"
+
+#~ msgid "Status:"
+#~ msgstr "Stato:"
+
+#~ msgid "Start"
+#~ msgstr "Avvio"
+
+#~ msgid "Stop"
+#~ msgstr "Arresto"
+
+#~ msgid "Restart"
+#~ msgstr "Riavvio"
+
+#~ msgid "Zap"
+#~ msgstr "Zap"
+
+#~ msgid "Start..."
+#~ msgstr "Avvio..."
+
+#~ msgid "Stop..."
+#~ msgstr "Arresto..."
+
+#~ msgid "Restart..."
+#~ msgstr "Riavvio..."
+
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Starting %1"
+#~ msgstr "Avvio di %1"
+
+#~ msgid "Stopping %1"
+#~ msgstr "Arresto di %1"
+
+#~ msgid "Restarting %1"
+#~ msgstr "Riavvio di %1"
+
+#~ msgid "Zapping %1"
+#~ msgstr "Zap di %1"
+
+#~ msgid "Querying System Service Status"
+#~ msgstr "Interrogazione stato servizi di sistema"
+
+#~ msgid "Querying system service status"
+#~ msgstr "Interrogazione stato servizi di sistema"
+
+#~ msgid "suspending"
+#~ msgstr "sospensione"
+
+#~ msgid "hibernating"
+#~ msgstr "ibernazione"
+
+#~ msgid "<device>"
+#~ msgstr "<dispositivo>"
+
+#~ msgid "<mount point>"
+#~ msgstr "<punto di montaggio>"
+
+#~ msgid ""
+#~ "An error occurred while enabling %1.\n"
+#~ "\n"
+#~ "The system reported: %2"
+#~ msgstr ""
+#~ "Errore durante l'abilitazione di %1.\n"
+#~ "\n"
+#~ "Il sistema ha riportato: %2"
+
+#~ msgid "Unable to enable %1"
+#~ msgstr "Impossibile abilitare %1"
+
+#~ msgid ""
+#~ "An error occurred while disabling %1.\n"
+#~ "\n"
+#~ "The system reported: %2"
+#~ msgstr ""
+#~ "Errore durante la disabilitazione di %1.\n"
+#~ "\n"
+#~ "Il sistema ha riportato: %2"
+
+#~ msgid "Unable to disable %1"
+#~ msgstr "Impossibile disabilitare %1"
+
+#~ msgid ""
+#~ "\"system error (out of memory, cannot fork, no more loop devices)\"\n"
+#~ msgstr ""
+#~ "\"errore di sistema (memoria esaurita, impossibile effettuare il fork, "
+#~ "non ci sono dispositivi loop disponibili)\"\n"
+
+#~ msgid "\"user interrupt\"\n"
+#~ msgstr "\"interrotto dall'utente\"\n"
+
+#~ msgid "(none)"
+#~ msgstr "(nessuno)"
+
+#~ msgid "proc"
+#~ msgstr "proc"
+
+#~ msgid "sysfs"
+#~ msgstr "sysfs"
+
+#~ msgid "rootfs"
+#~ msgstr "rootfs"
+
+#~ msgid "bdev"
+#~ msgstr "bdev"
+
+#~ msgid "sockfs"
+#~ msgstr "sockfs"
+
+#~ msgid "tmpfs"
+#~ msgstr "tmpfs"
+
+#~ msgid "shm"
+#~ msgstr "shm"
+
+#~ msgid "pipefs"
+#~ msgstr "pipefs"
+
+#~ msgid "devfs - Device File System"
+#~ msgstr "devfs - Device File System"
+
+#~ msgid "devpts"
+#~ msgstr "devpts"
+
+#~ msgid "ramfs"
+#~ msgstr "ramfs"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatico"
+
+#~ msgid "usbdevfs"
+#~ msgstr "usbdevfs"
+
+#~ msgid "procbususb"
+#~ msgstr "procbususb"
+
+#~ msgid "usbfs"
+#~ msgstr "usbfs"
+
+#~ msgid "supermount"
+#~ msgstr "supermount"
+
+#~ msgid "Swap - Linux Swap Space"
+#~ msgstr "Swap - Spazio Swap Linux"
+
+#~ msgid "NFS - Network File System"
+#~ msgstr "NFS - Network File System"
+
+#~ msgid "Windows File Sharing"
+#~ msgstr "Condivisione file di Windows"
+
+#~ msgid "Ext2 - Second Extended FS"
+#~ msgstr "Ext2 - Second Extended FS"
+
+#~ msgid "Ext3 - Third Extended FS"
+#~ msgstr "Ext3 - Third Extended FS"
+
+#~ msgid "ReiserFS"
+#~ msgstr "ReiserFS"
+
+#~ msgid "Reiser4"
+#~ msgstr "Reiser4"
+
+#~ msgid "XFS - SGI's journaling filesystem"
+#~ msgstr "XFS - SGI's journaling filesystem"
+
+#~ msgid "HFS - Apple's Hierarchical File System"
+#~ msgstr "HFS - Apple's Hierarchical File System"
+
+#~ msgid "HFS+ - Apple's modernized Hierarchical File System"
+#~ msgstr "HFS+ - Apple's modernized Hierarchical File System"
+
+#~ msgid "JFS - IBM's Journaled File System"
+#~ msgstr "JFS - IBM's Journaled File System"
+
+#~ msgid "VFAT - Microsoft FAT File Systems"
+#~ msgstr "VFAT - Microsoft FAT File Systems"
+
+#~ msgid "NTFS - NT File System"
+#~ msgstr "NTFS - NT File System"
+
+#~ msgid "udf"
+#~ msgstr "udf"
+
+#~ msgid "iso9660 - CD-ROM"
+#~ msgstr "iso9660 - CD-ROM"
+
+#~ msgid "(for example /dev/hdb3)"
+#~ msgstr "(per esempio /dev/hdb3)"
+
+#~ msgid "Mount Point:"
+#~ msgstr "Punto di montaggio:"
+
+#~ msgid "Browse..."
+#~ msgstr "Sfoglia..."
+
+#~ msgid "Device:"
+#~ msgstr "Dispositivo:"
+
+#~ msgid "by name"
+#~ msgstr "per nome"
+
+#~ msgid "by UUID"
+#~ msgstr "per UUID"
+
+#~ msgid "by label"
+#~ msgstr "per etichetta"
+
+#~ msgid "Device UUID:"
+#~ msgstr "UUID dispositivo:"
+
+#~ msgid "Device Label:"
+#~ msgstr "Etichetta dispositivo:"
+
+#~ msgid "Options:"
+#~ msgstr "Opzioni:"
+
+#~ msgid "fs_freq:"
+#~ msgstr "fs_freq:"
+
+#~ msgid "XXX fs_passno:"
+#~ msgstr "XXX fs_passno:"
+
+#~ msgid "Enable at start up"
+#~ msgstr "Abilita all'avvio"
+
+#~ msgid "Writeable"
+#~ msgstr "Scrivibile"
+
+#~ msgid "Mount Permission:"
+#~ msgstr "Permessi montaggio:"
+
+#~ msgid "Root user only may enable/disable"
+#~ msgstr "Solo l'utente root può abilitare/disabilitare"
+
+#~ msgid "Advanced..."
+#~ msgstr "Avanzato..."
+
+#~ msgid "(for example 192.168.1.66:/export)"
+#~ msgstr "(per esempio 192.168.1.66:/export)"
+
+#~ msgid "Security & Safety"
+#~ msgstr "Sicurezza e salvaguardia"
+
+#~ msgid "Files belong to user:"
+#~ msgstr "I file appartengono all'utente:"
+
+#~ msgid "Files belong to group:"
+#~ msgstr "I file appartengono al gruppo:"
+
+#~ msgid "Suppress permission errors"
+#~ msgstr "Sopprimi errori di permessi"
+
+#~ msgid "Network Share:"
+#~ msgstr "Condivisione di rete:"
+
+#~ msgid "Scan..."
+#~ msgstr "Analizza..."
+
+#~ msgid "Connect as:"
+#~ msgstr "Connetti come:"
+
+#~ msgid "Guest"
+#~ msgstr "Guest"
+
+#~ msgid "Username:"
+#~ msgstr "Nome utente:"
+
+#~ msgid "Password:"
+#~ msgstr "Password:"
+
+#~ msgid "Type:"
+#~ msgstr "Tipo:"
+
+#~ msgid "Disk Filesystems"
+#~ msgstr "Filesystem disco"
+
+#~ msgid "Network Filesystems"
+#~ msgstr "Filesystem rete"
+
+#~ msgid "Operating System"
+#~ msgstr "Sistema operativo"
+
+#~ msgid "Mountpoint already in use"
+#~ msgstr "Punto di montaggio già in uso"
+
+#~ msgid "Options may be missing"
+#~ msgstr "Probabilmente mancano delle opzioni"
+
+#~ msgid "Mountpoint does not exist"
+#~ msgstr "Punto di montaggio inesistente"
+
+#~ msgid "Invalid mountpoint"
+#~ msgstr "Punto di montaggio non valido"
+
+#~ msgid "Allow Executables"
+#~ msgstr "Permetti eseguibili"
+
+#~ msgid "Allow the SUID and SGID attributes"
+#~ msgstr "Permetti attributi SUID e SGID"
+
+#~ msgid "fs_passno:"
+#~ msgstr "fs_passno:"
+
+#~ msgid "Enabled"
+#~ msgstr "Abilitato"
+
+#~ msgid "Disabled"
+#~ msgstr "Disabilitato"
+
+#~ msgid "Disk & Filesystems"
+#~ msgstr "Disco e filesystem"
+
+#~ msgid "Available Disks and Filesystems:"
+#~ msgstr "Dischi e filesystem disponibili:"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Mount Point"
+#~ msgstr "Punto di montaggio"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Device"
+#~ msgstr "Dispositivo"
+
+#~ msgid "New..."
+#~ msgstr "Nuovo..."
+
+#~ msgid "Modify..."
+#~ msgstr "Modifica..."
+
+#~ msgid "Delete..."
+#~ msgstr "Elimina..."
+
+#~ msgid "Enable"
+#~ msgstr "Abilita"
+
+#~ msgid "Disable"
+#~ msgstr "Disabilita"
+
+#~ msgid "Details..."
+#~ msgstr "Dettagli..."
+
+#~ msgid "Show details..."
+#~ msgstr "Mostra dettagli..."
+
+#~ msgid "n/a"
+#~ msgstr "n/d"
+
+#~ msgid "%1 Kb"
+#~ msgstr "%1 Kb"
+
+#~ msgid "%1 Mb"
+#~ msgstr "%1 Mb"
+
+#~ msgid "%1 Gb"
+#~ msgstr "%1 Gb"
+
+#~ msgid "%1 Tb"
+#~ msgstr "%1 Tb"
+
+#~ msgid "Diskspace & Partitions"
+#~ msgstr "Spazio su disco e partizioni"
+
+#~ msgid "Close"
+#~ msgstr "Chiudi"
+
+#~ msgid "Disk %1%2"
+#~ msgstr "Disco %1%2"
+
+#~ msgid "Partition"
+#~ msgstr "Partizione"
+
+#~ msgid "available"
+#~ msgstr "disponibile"
+
+#~ msgid "device"
+#~ msgstr "dispositivo"
+
+#~ msgid "%1. Partition"
+#~ msgstr "%1. Partizione"
+
+#~ msgid "Used:"
+#~ msgstr "In uso:"
+
+#~ msgid "Total Size:"
+#~ msgstr "Dimensione totale:"
+
+#~ msgid "Mountpoint:"
+#~ msgstr "Punto di montaggio:"
+
+#~ msgid "% Used:"
+#~ msgstr "% in uso:"
+
+#~ msgid "Available:"
+#~ msgstr "Disponibile:"
+
+#~ msgid "Partition %1"
+#~ msgstr "Partizione %1"
+
+#~ msgid "Unknown"
+#~ msgstr "Sconosciuto"
+
+#~ msgid "Select a network share"
+#~ msgstr "Scegli una condivisione di rete"
+
+#~ msgid "Reconnect now"
+#~ msgstr "Riconnetti adesso"
+
+#~ msgid "Network Neighbourhood"
+#~ msgstr "Risorse di rete"
+
+#~ msgid "Connect to '%1' as:"
+#~ msgstr "Connetti a \"%1\" come:"
+
+#~ msgid "Connect to 'machine' as:"
+#~ msgstr "Connetti a \"machine\" come:"
+
+#~ msgid "Reset"
+#~ msgstr "Azzera"
+
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgid "Drives && Directories"
+#~ msgstr "Unità e cartelle"
+
+#~ msgid "Audio"
+#~ msgstr "Audio"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafica"
+
+#~ msgid "Appearance"
+#~ msgstr "Aspetto"
+
+#~ msgid "Applications"
+#~ msgstr "Applicazioni"
+
+#~ msgid "Libraries"
+#~ msgstr "Librerie"
+
+#~ msgid "Autodetect"
+#~ msgstr "Autorileva"
+
+#~ msgid "Local Hard Disk"
+#~ msgstr "Disco fisso locale"
+
+#~ msgid "Network Share"
+#~ msgstr "Condivisione di rete"
+
+#~ msgid "Floppy Disk"
+#~ msgstr "Dischetto"
+
+#~ msgid "CD-ROM"
+#~ msgstr "CD-ROM"
+
+#~ msgid "Drive and Directory Mappings"
+#~ msgstr "Mappatura unità e cartelle"
+
+#~ msgid "Directory"
+#~ msgstr "Cartella"
+
+#~ msgid "Add Drive..."
+#~ msgstr "Aggiungi unità..."
+
+#~ msgid "Remove Drive"
+#~ msgstr "Rimuovi unità"
+
+#~ msgid "Path:"
+#~ msgstr "Percorso:"
+
+#~ msgid "Browse"
+#~ msgstr "Sfoglia"
+
+#~ msgid "Drive Mapping"
+#~ msgstr "Mappatura unità"
+
+#~ msgid "Warning"
+#~ msgstr "Avviso"
+
+#~ msgid "Would you like to remove the current set of drives?"
+#~ msgstr "Vuoi rimuovere l'insieme corrente di unità?"
+
+#~ msgid "Drive Autodetection"
+#~ msgstr "Autorilevamento unità"
+
+#~ msgid "Shell Folder"
+#~ msgstr "Cartella shell"
+
+#~ msgid "Windows path: "
+#~ msgstr "Percorso Windows: "
+
+#~ msgid "The "
+#~ msgstr "Il "
+
+#~ msgid "Shell Folder Mapping"
+#~ msgstr "Mappatura cartella shell"
+
+#~ msgid "Label: "
+#~ msgstr "Etichetta: "
+
+#~ msgid "Serial: "
+#~ msgstr "Numero di serie: "
+
+#~ msgid "None - Disable Sound"
+#~ msgstr "Nessuno - Suono disabilitato"
+
+#~ msgid "Full"
+#~ msgstr "Completo"
+
+#~ msgid "Standard"
+#~ msgstr "Standard"
+
+#~ msgid "Basic"
+#~ msgstr "Essenziale"
+
+#~ msgid "Emulation"
+#~ msgstr "Emulazione"
+
+#~ msgid "Driver Selection"
+#~ msgstr "Selezione driver"
+
+#~ msgid "Audio Driver:"
+#~ msgstr "Driver audio:"
+
+#~ msgid "DirectSound"
+#~ msgstr "DirectSound"
+
+#~ msgid "Hardware Acceleration:"
+#~ msgstr "Accelerazione hardware:"
+
+#~ msgid "Default Sample Rate:"
+#~ msgstr "Frequenza campionamento predefinita:"
+
+#~ msgid "Driver Emulation"
+#~ msgstr "Emulazione driver"
+
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgid "None"
+#~ msgstr "Nessuno"
+
+#~ msgid "Window Settings"
+#~ msgstr "Impostazioni Windows"
+
+#~ msgid "Enable desktop double buffering"
+#~ msgstr "Abilita doppio buffer per il desktop"
+
+#~ msgid "Display window contents while dragging"
+#~ msgstr "Mostra il contenuto della finestra durante il trascinamento"
+
+#~ msgid "Emulate a virtual desktop"
+#~ msgstr "Emula un desktop virtuale"
+
+#~ msgid "Desktop size:"
+#~ msgstr "Dimensione desktop:"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Direct3D"
+#~ msgstr "Direct3D"
+
+#~ msgid "Vertex Shader Support:"
+#~ msgstr "Supporto vertex shader:"
+
+#~ msgid "No Theme"
+#~ msgstr "Nessun tema"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizzato"
+
+#~ msgid "Normal"
+#~ msgstr "Normale"
+
+#~ msgid "Large Fonts"
+#~ msgstr "Caratteri grandi"
+
+#~ msgid "Extra Large Fonts"
+#~ msgstr "Caratteri super grandi"
+
+#~ msgid "Window Border"
+#~ msgstr "Bordo della finestra"
+
+#~ msgid "Active Color:"
+#~ msgstr "Colore attivo:"
+
+#~ msgid "Inactive Color:"
+#~ msgstr "Colore inattivo:"
+
+#~ msgid "Width:"
+#~ msgstr "Larghezza:"
+
+#~ msgid "Title Bar"
+#~ msgstr "Barra del titolo"
+
+#~ msgid "Gradient:"
+#~ msgstr "Gradiente:"
+
+#~ msgid "Active Text:"
+#~ msgstr "Testo attivo:"
+
+#~ msgid "Inactive Text:"
+#~ msgstr "Testo inattivo:"
+
+#~ msgid "Application Workspace"
+#~ msgstr "Spazio di lavoro applicazione"
+
+#~ msgid "Background Color:"
+#~ msgstr "Colore di sfondo:"
+
+#~ msgid "Buttons"
+#~ msgstr "Pulsanti"
+
+#~ msgid "Face:"
+#~ msgstr "Primo piano:"
+
+#~ msgid "Light:"
+#~ msgstr "Luce:"
+
+#~ msgid "Shadow:"
+#~ msgstr "Ombra:"
+
+#~ msgid "Text Color:"
+#~ msgstr "Colore testo:"
+
+#~ msgid "Alternate Face:"
+#~ msgstr "Primo piano alternato:"
+
+#~ msgid "Dark Shadow:"
+#~ msgstr "Ombra scura:"
+
+#~ msgid "Frame:"
+#~ msgstr "Cornice:"
+
+#~ msgid "Caption Buttons"
+#~ msgstr "Etichetta pulsanti"
+
+#~ msgid "Height:"
+#~ msgstr "Altezza"
+
+#~ msgid "Desktop"
+#~ msgstr "Desktop"
+
+#~ msgid "Background:"
+#~ msgstr "Sfondo:"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Menu Background:"
+#~ msgstr "Sfondo menu:"
+
+#~ msgid "Menu Bar Color:"
+#~ msgstr "Colore barra menu:"
+
+#~ msgid "Menu Bar Height:"
+#~ msgstr "Altezza barra menu:"
+
+#~ msgid "Scrollbar"
+#~ msgstr "Barra di scorrimento"
+
+#~ msgid "Color:"
+#~ msgstr "Colore:"
+
+#~ msgid "Window"
+#~ msgstr "Finestra"
+
+#~ msgid "Selected Items"
+#~ msgstr "Elementi selezionati"
+
+#~ msgid "Style and Colors"
+#~ msgstr "Stile e colori"
+
+#~ msgid "Widget Style:"
+#~ msgstr "Stile elemento:"
+
+#~ msgid "Install style..."
+#~ msgstr "Installa stile..."
+
+#~ msgid "Font Size:"
+#~ msgstr "Dimensione carattere:"
+
+#~ msgid "Color Scheme:"
+#~ msgstr "Schema colori:"
+
+#~ msgid "Save..."
+#~ msgstr "Salva..."
+
+#~ msgid "Item:"
+#~ msgstr "Elemento:"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Get KDE Colors"
+#~ msgstr "Ottieni colori di KDE"
+
+#~ msgid "Windows Styles (*.msstyles)"
+#~ msgstr "Stili finestre (*.msstyles)"
+
+#~ msgid "Install Style"
+#~ msgstr "Installa stile"
+
+#~ msgid "Save Color Scheme"
+#~ msgstr "Salva schema colori"
+
+#~ msgid "Name: "
+#~ msgstr "Nome: "
+
+#~ msgid "CustomScheme"
+#~ msgstr "Schema predefinito"
+
+#~ msgid "Purple"
+#~ msgstr "Viola"
+
+#~ msgid "Blue"
+#~ msgstr "Blu"
+
+#~ msgid "Use Global Setting"
+#~ msgstr "Usa impostazioni globali"
+
+#~ msgid "Windows version:"
+#~ msgstr "versione  Windows:"
+
+#~ msgid "Application specific settings"
+#~ msgstr "Impostazioni specifiche dell'applicazione"
+
+#~ msgid "Add Application..."
+#~ msgstr "Aggiungi applicazione..."
+
+#~ msgid "Remove..."
+#~ msgstr "Rimuovi..."
+
+#~ msgid "Native applications"
+#~ msgstr "Applicazioni native"
+
+#~ msgid "Web Browser:"
+#~ msgstr "Browser web:"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Mail Client:"
+#~ msgstr "Client di posta:"
+
+#~ msgid " profile (Native)"
+#~ msgstr " profilo (Nativo)"
+
+#~ msgid "Use KDE Default"
+#~ msgstr "Usa predefinito di KDE"
+
+#~ msgid "Konqueror (Native)"
+#~ msgstr "Konqueror (Nativo)"
+
+#~ msgid " (Native)"
+#~ msgstr " (Nativo)"
+
+#~ msgid " (Windows, set by application)"
+#~ msgstr " (Windows, impostato dall'applicazione)"
+
+#~ msgid "KDE (Native)"
+#~ msgstr "KDE (Nativo)"
+
+#~ msgid "Windows Executables (*.exe)"
+#~ msgstr "Eseguibile Windows (*.exe)"
+
+#~ msgid "Application"
+#~ msgstr "Applicazione"
+
+#~ msgid "Built-in (Wine)"
+#~ msgstr "Integrato (Wine)"
+
+#~ msgid "Native (Windows)"
+#~ msgstr "Nativo (Windows)"
+
+#~ msgid "DLL Overrides"
+#~ msgstr "Sostituzione DLL"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Existing overrides:"
+#~ msgstr "Sostituzioni esistenti:"
+
+#~ msgid "Library"
+#~ msgstr "Libreria"
+
+#~ msgid "Load Order"
+#~ msgstr "Ordine caricamento"
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
+
+#~ msgid "Remove"
+#~ msgstr "Rimuovi"
+
+#~ msgid "Edit Library Override"
+#~ msgstr "Modifica sostituzione libreria"
+
+#~ msgid "Windows Directory"
+#~ msgstr "Cartella di Windows"
+
+#~ msgid "Select Graphics Card:"
+#~ msgstr "Seleziona scheda grafica:"
+
+#~ msgid "Drivers"
+#~ msgstr "Driver"
+
+#~ msgid "Manufacturers"
+#~ msgstr "Produttori"
+
+#~ msgid "Select"
+#~ msgstr "Seleziona"
+
+#~ msgid "Driver:"
+#~ msgstr "Driver:"
+
+#~ msgid "Proprietary"
+#~ msgstr "Proprietario"
+
+#~ msgid "Video RAM:"
+#~ msgstr "RAM video:"
+
+#~ msgid "256 kB"
+#~ msgstr "256 kB"
+
+#~ msgid "512 kB"
+#~ msgstr "512 kB"
+
+#~ msgid "1 MB"
+#~ msgstr "1 MB"
+
+#~ msgid "2 MB"
+#~ msgstr "2 MB"
+
+#~ msgid "4 MB"
+#~ msgstr "4 MB"
+
+#~ msgid "8 MB"
+#~ msgstr "8 MB"
+
+#~ msgid "16 MB"
+#~ msgstr "16 MB"
+
+#~ msgid "32 MB"
+#~ msgstr "32 MB"
+
+#~ msgid "64 MB or more"
+#~ msgstr "64 MB o più"
+
+#~ msgid ""
+#~ "Detected graphics card:\n"
+#~ "(unknown)"
+#~ msgstr ""
+#~ "Scheda grafica rilevata:\n"
+#~ "(sconosciuta)"
+
+#~ msgid ""
+#~ "Detected graphics card:\n"
+#~ "'%1'."
+#~ msgstr ""
+#~ "Scheda grafica rilevata:\n"
+#~ "\"%1\"."
+
+#~ msgid "Select Monitor:"
+#~ msgstr "Seleziona monitor:"
+
+#~ msgid "Generic"
+#~ msgstr "Generico"
+
+#~ msgid "Details"
+#~ msgstr "Dettagli"
+
+#~ msgid "Horizontal Range:"
+#~ msgstr "Intervallo orizzontale:"
+
+#~ msgid "Vertical Refresh:"
+#~ msgstr "Refresh verticale:"
+
+#~ msgid "Detect Monitor"
+#~ msgstr "Rileva monitor"
+
+#~ msgid "Image format:"
+#~ msgstr "Formato immagine:"
+
+#~ msgid "Standard 4:3"
+#~ msgstr "Standard 4:3"
+
+#~ msgid "Widescreen 16:9"
+#~ msgstr "Schermo ampio 16:9"
+
+#~ msgid "Monitor detection failed"
+#~ msgstr "Rilevamento monitor non riuscito"
+
+#~ msgid "1.4"
+#~ msgstr "1.4"
+
+#~ msgid "1.6"
+#~ msgstr "1.6"
+
+#~ msgid "1.8"
+#~ msgstr "1.8"
+
+#~ msgid "2.0"
+#~ msgstr "2.0"
+
+#~ msgid "2.2"
+#~ msgstr "2.2"
+
+#~ msgid "2.4"
+#~ msgstr "2.4"
+
+#~ msgid "Color && Gamma"
+#~ msgstr "Colore e gamma"
+
+#~ msgid "Screen:"
+#~ msgstr "Schermo:"
+
+#~ msgid "Gamma correction:"
+#~ msgstr "Correzione gamma:"
+
+#~ msgid "All:"
+#~ msgstr "Tutto:"
+
+#~ msgid "Red:"
+#~ msgstr "Rosso:"
+
+#~ msgid "Green:"
+#~ msgstr "Verde:"
+
+#~ msgid "Blue:"
+#~ msgstr "Blu:"
+
+#~ msgid "Test"
+#~ msgstr "Prova"
+
+#~ msgid "Confirm Display Setting Change"
+#~ msgstr "Conferma le modifiche delle impostazioni dello schermo"
+
+#~ msgid "&Keep"
+#~ msgstr "&Mantieni"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Annulla"
+
+#~ msgid ""
+#~ "Trying new screen settings. Keep these new settings? (Automatically "
+#~ "cancelling in 15 seconds.)"
+#~ msgstr ""
+#~ "Prova delle nuove impostazioni dello schermo. Mantengo queste "
+#~ "impostazioni? (Annullamento automatico in 15 secondi.)"
+
+#~ msgid "Configuration not tested"
+#~ msgstr "Configurazione non provata"
+
+#~ msgid "X Server restart recommend"
+#~ msgstr "È consigliato riavviare il server X"
+
+#~ msgid "System restart recommend"
+#~ msgstr "È consigliato riavviare il sistema"
+
+#~ msgid "Messages from the X server:\n"
+#~ msgstr "Messaggi dal server X:\n"
+
+#~ msgid "Screen size"
+#~ msgstr "Dimensione schermo"
+
+#~ msgid "Screen size #%1"
+#~ msgstr "Dimensione schermo #%1"
+
+#~ msgid "%1 Hz"
+#~ msgstr "%1 Hz"
+
+#~ msgid "Monitor Orientation"
+#~ msgstr "Orientazione schermo"
+
+#~ msgid "Left edge on top"
+#~ msgstr "Bordo sinistro in cima"
+
+#~ msgid "Right edge on top"
+#~ msgstr "Bordo destro in cima"
+
+#~ msgid "Upsidedown"
+#~ msgstr "Sotto-sopra"
+
+#~ msgid "Mirror horizontally"
+#~ msgstr "Rifletti orizzontalmente"
+
+#~ msgid "Mirror vertically"
+#~ msgstr "Rifletti verticalmente"
+
+#~ msgid "Clone primary screen"
+#~ msgstr "Clona schermo primario"
+
+#~ msgid "Dual screen"
+#~ msgstr "Schemo doppio"
+
+#~ msgid "1 left of 2"
+#~ msgstr "1 a sinistra di 2"
+
+#~ msgid "1 right of 2"
+#~ msgstr "1 a destra di 2"
+
+#~ msgid "1 above 2"
+#~ msgstr "1 sopra a 2"
+
+#~ msgid "1 below 2"
+#~ msgstr "1 sotto a 2"
+
+#~ msgid "Refresh:"
+#~ msgstr "Aggiornamento:"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 minuti"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 minuti"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 minuti"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 minuti"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 minuti"
+
+#~ msgid "20 minutes"
+#~ msgstr "20 minuti"
+
+#~ msgid "25 minutes"
+#~ msgstr "25 minuti"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minuti"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 minuti"
+
+#~ msgid "1 hour"
+#~ msgstr "1 ora"
+
+#~ msgid "2 hours"
+#~ msgstr "2 ore"
+
+#~ msgid "3 hours"
+#~ msgstr "3 ore"
+
+#~ msgid "4 hours"
+#~ msgstr "4 ore"
+
+#~ msgid "5 hours"
+#~ msgstr "5 ore"
+
+#~ msgid "Enable power saving"
+#~ msgstr "Abilita risparmio energetico"
+
+#~ msgid "Switch off monitor after:"
+#~ msgstr "Spegni lo schermo dopo:"
+
+#~ msgid "%1 seconds remaining:"
+#~ msgstr "%1 secondi rimasti:"
+
+#~ msgid "Screen Size"
+#~ msgstr "Dimensione schermo"
+
+#~ msgid "Lower"
+#~ msgstr "Più grande"
+
+#~ msgid "Higher"
+#~ msgstr "Più piccola"
+
+#~ msgid "%1 x %2"
+#~ msgstr "%1 x %2"
+
+#~ msgid "Graphics card:"
+#~ msgstr "Scheda grafica:"
+
+#~ msgid "Configure..."
+#~ msgstr "Configura..."
+
+#~ msgid "Monitor:"
+#~ msgstr "Schermo:"
+
+#~ msgid "Monitor #%1:"
+#~ msgstr "Schermo #%1:"
+
+#~ msgid "Role:"
+#~ msgstr "Ruolo:"
+
+#~ msgid "Primary (1)"
+#~ msgstr "Primario (1)"
+
+#~ msgid "Secondary (2)"
+#~ msgstr "Secondario (2)"
+
+#~ msgid "Unused"
+#~ msgstr "Non utilizzato"
+
+#~ msgid "<Unknown>"
+#~ msgstr "<sconosciuto>"
+
+#~ msgid "<none>"
+#~ msgstr "<nessuno>"
+
+#~ msgid "<unknown>"
+#~ msgstr "<sconosciuto>"
+
+#~ msgid " (widescreen)"
+#~ msgstr " (schermo esteso)"
+
+#~ msgid "Are these settings acceptable?"
+#~ msgstr "Accetto le impostazioni?"
+
+#~ msgid "Automatically cancelling in %1 seconds:"
+#~ msgstr "Annullamento automatico in %1 secondi:"
+
+#~ msgid "User Accounts and Groups"
+#~ msgstr "Account utente e gruppi"
+
+#~ msgid "User Accounts:"
+#~ msgstr "Account utente:"
+
+#~ msgid "Login Name"
+#~ msgstr "Nome accesso"
+
+#~ msgid "Real Name"
+#~ msgstr "Nome reale"
+
+#~ msgid "UID"
+#~ msgstr "UID"
+
+#~ msgid "Show system accounts"
+#~ msgstr "Mostra account di sistema"
+
+#~ msgid "Login Name:"
+#~ msgstr "Nome accesso:"
+
+#~ msgid "Real Name:"
+#~ msgstr "Nome reale:"
+
+#~ msgid "UID:"
+#~ msgstr "UID:"
+
+#~ msgid "Primary Group:"
+#~ msgstr "Gruppo primario:"
+
+#~ msgid "Secondary Groups:"
+#~ msgstr "Gruppi secondari:"
+
+#~ msgid "Users"
+#~ msgstr "Utenti"
+
+#~ msgid "Groups"
+#~ msgstr "Gruppi"
+
+#~ msgid "Groups:"
+#~ msgstr "Gruppi:"
+
+#~ msgid "Group Name"
+#~ msgstr "Nome gruppo"
+
+#~ msgid "GID"
+#~ msgstr "GID"
+
+#~ msgid "Show system groups"
+#~ msgstr "Mostra gruppi di sistema"
+
+#~ msgid "Group Members:"
+#~ msgstr "Membri del gruppo:"
+
+#~ msgid ""
+#~ "Are you sure you want to delete group '%1' (%2)?\n"
+#~ "It currently has %3 members."
+#~ msgstr ""
+#~ "Sei sicuro di voler eliminare il gruppo \"%1\" (%2)?\n"
+#~ "Attualmente è formato da %3 componenti."
+
+#~ msgid "Delete Group?"
+#~ msgstr "Elimino il gruppo?"
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "User Account"
+#~ msgstr "Account utente"
+
+#~ msgid "User ID:"
+#~ msgstr "ID utente:"
+
+#~ msgid "Select..."
+#~ msgstr "Seleziona..."
+
+#~ msgid "Home Directory:"
+#~ msgstr "Cartella Home:"
+
+#~ msgid "Shell:"
+#~ msgstr "Shell:"
+
+#~ msgid "Password && Security"
+#~ msgstr "Password e sicurezza"
+
+#~ msgid "Last changed:"
+#~ msgstr "Ultima volta cambiata:"
+
+#~ msgid "Valid until:"
+#~ msgstr "Valido fino a:"
+
+#~ msgid "Always"
+#~ msgstr "Sempre"
+
+#~ msgid "Password Aging"
+#~ msgstr "Età password"
+
+#~ msgid "Require new password after:"
+#~ msgstr "Richiedi nuova password dopo:"
+
+#~ msgid " days"
+#~ msgstr " giorni"
+
+#~ msgid "Warn before password expires:"
+#~ msgstr "Avvisa prima che la password scada:"
+
+#~ msgid "After "
+#~ msgstr "Dopo "
+
+#~ msgid "Never"
+#~ msgstr "Mai"
+
+#~ msgid "Disable account after password expires:"
+#~ msgstr "Disabilita l'account dopo la scadenza della password:"
+
+#~ msgid "User ID in use"
+#~ msgstr "ID utente in uso"
+
+#~ msgid ","
+#~ msgstr ","
+
+#~ msgid "Select Groups"
+#~ msgstr "Seleziona gruppi"
+
+#~ msgid "Available Groups"
+#~ msgstr "Gruppi disponibili"
+
+#~ msgid "Selected Groups"
+#~ msgstr "Gruppi selezionati"
+
+#~ msgid "Add ->"
+#~ msgstr "Aggiungi ->"
+
+#~ msgid "<- Remove"
+#~ msgstr "<- Rimuovi"
+
+#~ msgid "Delete User Account"
+#~ msgstr "Elimina account utente"
+
+#~ msgid "Delete home directory ()"
+#~ msgstr "Elimina cartella home ()"
+
+#~ msgid "Delete group ()"
+#~ msgstr "Elimina gruppo ()"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "Create home directory"
+#~ msgstr "Crea cartella home"
+
+#~ msgid "Edit Group"
+#~ msgstr "Modifica gruppo"
+
+#~ msgid "Group Name:"
+#~ msgstr "Nome gruppo:"
+
+#~ msgid "Group ID:"
+#~ msgstr "ID gruppo:"
+
+#~ msgid "Available Accounts"
+#~ msgstr "Account disponibili"
+
+#~ msgid "Selected Accounts"
+#~ msgstr "Account selezionati"
+
+#~ msgid "User and Group Configuration Tool"
+#~ msgstr "Strumento configurazione utenti e gruppi"

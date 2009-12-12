@@ -1,0 +1,336 @@
+# Malayalam Translation of guidance-power-manager.pot
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the guidance-power-manager package.
+# SANKARANARAYANAN | ശങ്കരനാരായണന്‍ <snalledam@dataone.in>, 2009.
+# Praveen Arimbrathodiyil <pravi.a@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance-power-manager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2009-02-07 16:01-0800\n"
+"Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
+"Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "ഒന്നും ചെയ്യണ്ട"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "ശൂന്യ‌മായ സ്ക്രീന്‍"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "മയങ്ങുക"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "ശിശിരനിദ്രയിലാകുക"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "നിര്‍ത്തിവയ്ക്കുക"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "ചലനാത്മകമായി"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "ഊര്‍ജ്ജമിതവ്യയം"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "പ്രകടനം"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr "സിപിയുനയം"
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr "സിപിയു ആവൃത്തി നയം ചലനാത്മകത്തിലേക്ക് മാറ്റി."
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr "സിപിയു ആവൃത്തി നയം പ്രകടനത്തിലേക്ക് മാറ്റി."
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr "സിപിയു ആവൃത്തി നയം ഊര്‍ജ്ജമിതവ്യയത്തിലേക്ക് മാറ്റി."
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "സിപിയു ആവൃത്തി നയം %1 ലേക്ക് മാറ്റി."
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "ബാറ്ററി നീക്കം ചെയ്തിട്ടുണ്ട്."
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "ബാറ്ററി സ്ഥാപിച്ചിട്ടുണ്ട്"
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>ബാറ്ററി</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr "പൂര്‍ണ്ണമായി ചാര്‍ജ്ജ് ചെയ്തു"
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr "ചാര്‍ജ്ജ് ചെയ്യാന്‍ %1:%2 മണിക്കൂര്‍ വേണം"
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr "%1:%2 മണിക്കൂര്‍ ബാക്കിയുണ്ട്"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "ലാപ്‌ടോപ്പിന്റെ മൂടി അടച്ചിരിക്കുന്നു, ഇപ്പോള്‍ ഗാഢനിദ്രയിലാണ്."
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "ലാപ്‌ടോപ്പിന്റെ മൂടി അടച്ചിരിക്കുന്നു, ഇപ്പോള്‍ സ്ക്രീന്‍ ശൂന്യ‌മാക്കുന്നു. "
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "ലാപ്‌ടോപ്പിന്റെ മൂടി അടച്ചിരിക്കുന്നു, ഇപ്പോള്‍ മയങ്ങുന്നു."
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "ലാപ്‌ടോപ്പിന്റെ മൂടി അടച്ചിരിക്കുന്നു, ഇപ്പോള്‍ നിര്‍ത്തിവയ്ക്കുന്നു."
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "ബാറ്ററി %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "നിലവിലില്ല"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "ചാര്‍ജ്ജ് ചെയ്യുന്നു (%p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "ചാര്‍ജ്ജ് ഉപയോഗിച്ചുകൊണ്ടിരിയ്ക്കുന്നു -(%p%) - %1 W"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "ചാര്‍ജ്ജ് ഉപയോഗിച്ചുകൊണ്ടിരിയ്ക്കുന്നു (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>സിപിയു ആവൃത്തി:</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "പ്രോസസ്സര്‍ %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>സിപിയു ആവൃത്തി:</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "ഏസി അഡാപ്റ്റര്‍ ഊരിയിരിയ്ക്കുന്നു, ബാറ്ററി ദശയിലേയ്ക്കു് മാറ്റുന്നു."
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "ഏസി അഡാപ്റ്റര്‍ കുത്തിയിരിയ്ക്കുന്നു, ഏസി ദശയിലേയ്ക്കു് മാറുന്നു."
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr "ബാറ്ററിയിലെ ഊര്‍ജ്ജം തീരാറായി, ഇപ്പോള്‍‍ ഒന്നും ചെയ്യുന്നില്ല."
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr "ബാറ്ററിയിലെ ഊര്‍ജ്ജം തീരാറായി, ഇപ്പോള്‍ ‍സ്ക്രീന്‍ ശൂന്യ‌മാക്കുന്നു."
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr "ബാറ്ററിയിലെ ഊര്‍ജ്ജം തീരാറായി, ഇപ്പോള്‍ മയങ്ങുന്നു."
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "ബാറ്ററിയിലെ ഊര്‍ജ്ജം തീരാറായി, ഇപ്പോള്‍ ശിശിരനിദ്രയിലാകുന്നു."
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "ബാറ്ററിയിലെ ഊര്‍ജ്ജം തീരാറായി, ഇപ്പോള്‍ നിര്‍ത്തിവയ്ക്കുന്നു."
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "ബാറ്ററിയിലെ ഊര്‍ജ്ജം താഴ്ന്ന നിലയിലാണ്."
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "സിസ്റ്റം ചുരുങ്ങിയത്  %1 മിനുട്ട് സമയത്തേക്ക് നിഷ്ക്രിയമാണ്, ഒന്നുംചെയ്യാനില്ല."
+msgstr[1] "സിസ്റ്റം ചുരുങ്ങിയത്  %1 മിനുട്ട് സമയത്തേക്ക് നിഷ്ക്രിയമാണ്, ഒന്നുംചെയ്യാനില്ല."
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "സിസ്റ്റം ചുരുങ്ങിയത്  %1 മിനുട്ട് സമയത്തേക്ക് നിഷ്ക്രിയമാണ്, സ്ക്രീന്‍ ശൂന്യ‌മാക്കുന്നു."
+msgstr[1] "സിസ്റ്റം ചുരുങ്ങിയത്  %1 മിനുട്ട് സമയത്തേക്ക് നിഷ്ക്രിയമാണ്, സ്ക്രീന്‍ ശൂന്യ‌മാക്കുന്നു."
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] ""
+"സിസ്റ്റം ചുരുങ്ങിയത്  %1 മിനുട്ട് സമയത്തേക്ക് നിഷ്ക്രിയമാണ്, തല്‍‌ക്കലത്തേക്ക് നിര്‍ത്തിവെക്കുന്നു."
+msgstr[1] "സിസ്റ്റം ചുരുങ്ങിയത്  %1 മിനുട്ട് സമയത്തേക്ക് നിഷ്ക്രിയമാണ്, ഇപ്പോള്‍ മയങ്ങുന്നു."
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] ""
+"സിസ്റ്റം ചുരുങ്ങിയത്  %1 മിനുട്ട് സമയത്തേക്ക് നിഷ്ക്രിയമാണ്, ഇപ്പോള്‍ ശിശിരനിദ്യിലാകുന്നു."
+msgstr[1] ""
+"സിസ്റ്റം ചുരുങ്ങിയത്  %1 മിനുട്ട് സമയത്തേക്ക് നിഷ്ക്രിയമാണ്, ഇപ്പോള്‍ ശിശിരനിദ്രയിലാകുന്നു."
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "സിസ്റ്റം ചുരുങ്ങിയത്  %1 മിനുട്ട് സമയത്തേക്ക് നിഷ്ക്രിയമാണ്, ഇപ്പോള്‍ നിര്‍ത്തിവയ്ക്കുന്നു."
+msgstr[1] "സിസ്റ്റം ചുരുങ്ങിയത്  %1 മിനുട്ട് സമയത്തേക്ക് നിഷ്ക്രിയമാണ്, ഇപ്പോള്‍ നിര്‍ത്തിവയ്ക്കുന്നു."
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "സംബന്ധിച്ച്"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr "ഗൈഡന്‍സ് വൈദ്യുതി നടത്തിപ്പുകാരന്‍"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr "ബാറ്ററി വിവരത്തിനും തെളിച്ചം ഒരുക്കാനും ഉള്ള ലഘുപ്രയോഗം"
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr "പകര്‍പ്പവകാശം 2006-2008 സെബാസ്‌റ്റ്യ‌ന്‍ കൂഗ്ലര്‍, കാനോണിക്കല്‍ ലിമിറ്റഡ്, ലൂക്കാ റെങ്കൊ"
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "പൊതുവായ സജ്ജീകരണങ്ങള്‍"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr "സ്ക്രീന്‍ വീണ്ടെടുക്കുമ്പോള്‍ പൂട്ടണം"
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr "പ്രധാന സ്രോതസ്സല്‍ നിന്ന് ഊര്‍ജ്ജം പകര്‍ന്നത്"
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "തെളിച്ചം"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr ""
+"സോക്കറ്റ് ഔട്ട്‌ലെറ്റുമായി ബന്ധിച്ചിരിയ്ക്കുമ്പോള്‍ ഈ സ്ലൈഡര്‍ ഉപയോഗിച്ച് തെളിച്ചം ക്രമീകരിക്കാം"
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr "സിസ്റ്റം കൂടുതല്‍ സമയം ആലസ്യ‌ത്തിലായാല്‍ "
+
+#: ui.py:24 ui.py:48 ui.py:54
+#, fuzzy
+#| msgid ""
+#| "To prevent data loss or other damage, you can have the system suspend or "
+#| "hibernate, so you don't run accidentally out of battery power. Configure "
+#| "the number of minutes below which the machine will run the configured "
+#| "action."
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+"വിവരനഷ്ടമോ ഹാനിയോ തടയാന്‍, സിസ്റ്റം മയങ്ങുകയോ ശിശിരനിദ്രയിലാകുകയോചെയ്യാവുന്നതാണ്, അങ്ങനെ "
+"ആകസ്മികമായിട്ടുപോലും ബാറ്ററി ഊര്‍ജ്ജം തീരാതിരിയ്ക്കും.ക്രമീകരിച്ച നടപടിയുമായി മുന്നോട്ടു് "
+"പോകേണ്ടതു് എത്ര മിനിറ്റുകളില്‍ താഴെയാകുമ്പോഴാണെന്നു് താഴെ ക്രമീകരിയ്ക്കുക. "
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr " മിനുട്ട്"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr "സിപിയു ആവൃ‍ത്തി മാറ്റംവരുത്തല്‍ നയം "
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr "ബാറ്ററി ഊര്‍ജ്ജം നല്‍കുന്ന"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr "സിസ്റ്റം ബാറ്ററിയില്‍ ഓടുമ്പോള്‍ ഈ സ്ലൈഡര്‍ തെളിച്ചം നിയന്ത്രിക്കുന്നു"
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr "ബാറ്ററിശേഷിയുടെ ബാക്കിസമയം താഴുമ്പോള്‍"
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr "ലാപ്‌ടോപ്പ് മൂടി അടച്ചാല്‍"
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "സ്ക്രീന്‍ പൂട്ടുക "
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "മെമ്മറിയിലാക്കി മയങ്ങുക"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr ""
+"താല്‍ക്കാലികമായി ഒതുക്കുന്നത് ഉറക്കത്തിന്റെ നിലയാണ്, ഈ നിലയില്‍, സിസ്റ്റം വളരെ കുറച്ച്ഊര്‍ജ്ജം "
+"മാത്രമേ ഉപയോഗിക്കൂ."
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "ഡിസ്ക്കിലാക്കി മയങ്ങുക"
+
+#: ui.py:84
+#, fuzzy
+#| msgid ""
+#| "Hibernate or \"Suspend to Disk\" is a deep sleepstate, allowing the "
+#| "system to power off completely"
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr "ഡിസ്ക്കിലാക്കി മയങ്ങള്‍‌ ഗാഢനിദ്രയുടെ നിലയാണ്, സിസ്റ്റം തികച്ചും ഊര്‍ജ്ജരഹിതമായിരിക്കും."
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "മഷീന്‍ നിര്‍ത്തുക"

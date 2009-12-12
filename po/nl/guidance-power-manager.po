@@ -1,0 +1,345 @@
+# translation of guidance-power-manager.po to Dutch
+# translation of guidance.po to
+# translation of guidance.pot_[C2rchb].po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rinse de Vries <RinseDeVries@home.nl>, 2006.
+# Rinse de Vries <rinsedevries@kde.nl>, 2006, 2007.
+# Bram Schoenmakers <bramschoenmakers@kde.nl>, 2006.
+# Kristof Bal <kristof.bal@gmail.com>, 2008.
+# Freek de Kruijf <f.de.kruijf@hetnet.nl>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance-power-manager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2008-10-15 13:37+0100\n"
+"Last-Translator: Kristof Bal <kristof.bal@gmail.com>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "Niets doen"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "Leeg scherm"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "Onderbreken"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "Slaapstand"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "Afsluiten"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "Dynamisch"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "Energiebesparing"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "Prestaties"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr "CPU-beleid"
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr "CPU-frequentiebeleid veranderd in dynamisch."
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr "CPU-frequentiebeleid veranderd in prestaties."
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr "CPU-frequentiebeleid veranderd in energiebesparing."
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "CPU-frequentiebeleid veranderd in %1."
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "De batterij is verwijderd."
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "De batterij is geplaatst."
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>Batterij:</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr " volledig opgeladen"
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr " %1:%2u tot opgeladen"
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr " %1:%2u resterend"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "Laptopdeksel is gesloten, nu in slaapstand."
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "Laptopdeksel is gesloten, nu leeg scherm."
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "Laptopdeksel is gesloten, nu onderbreken."
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "Laptopdeksel is gesloten, nu afsluiten."
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "Batterij %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "niet aanwezig"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "Opladen (%p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "Ontladen (%p%) - %1 W"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "Ontladen (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>CPU-frequentie:</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "Processor %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>CPU-frequentie:</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "De AC-adapter is losgemaakt. Batterijmodus wordt geactiveerd."
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "De AC-adapter is verbonden, AC-modus wordt geactiveerd."
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr "Uw batterij is bijna leeg, nu niets doen."
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr "Uw batterij is bijna leeg, nu scherm leegmaken."
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr "Uw batterij is bijna leeg, nu onderbreken."
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "Uw batterij is bijna leeg, nu naar slaapstand."
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "Uw batterij is bijna leeg, nu afsluiten."
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "Uw batterij is bijna leeg."
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "Systeem is minstens %1 minuut niet gebruikt, nu niets doen."
+msgstr[1] "Systeem is minstens %1 minuten niet gebruikt, nu niets doen."
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "Systeem is minstens %1 minuut niet gebruikt, nu scherm leegmaken."
+msgstr[1] "Systeem is minstens %1 minuten niet gebruikt, nu scherm leegmaken."
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] "Systeem is minstens %1 minuut niet gebruikt, nu onderbreken."
+msgstr[1] "Systeem is minstens %1 minuten niet gebruikt, nu onderbreken."
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] "Systeem is minstens %1 minuut niet gebruikt, nu naar slaapstand."
+msgstr[1] "Systeem is minstens %s minuten niet gebruikt, nu naar slaapstand."
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "Systeem is minstens %1 minuten niet gebruikt, nu afsluiten."
+msgstr[1] "Systeem is minstens %1 minuten niet gebruikt, nu afsluiten."
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "Info over"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr "Guidance energiebeheer"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr "Applet voor batterij-informatie en instelling van helderheid"
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr "Scherm vergrendelen bij hervatten"
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr "Energie uit het net"
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "Helderheid"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr ""
+"Met deze schuifregelaar kunt u de helderheid instellen wanneer het systeem "
+"aan het net hangt"
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr "Als het systeem niet in gebruik is voor meer dan"
+
+#: ui.py:24 ui.py:48 ui.py:54
+#, fuzzy
+#| msgid ""
+#| "To prevent data loss or other damage, you can have the system suspend or "
+#| "hibernate, so you don't run accidentally out of battery power. Configure "
+#| "the number of minutes below which the machine will run the configured "
+#| "action."
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+"Om gegevensverlies of schade te voorkomen, kunt u het systeem onderbreken of "
+"in slaapstand zetten, zodat u niet per ongeluk uit uw batterij loopt. "
+"Configureer het aantal minuten waaronder de machine de geconfigureerde actie "
+"uitvoert."
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr "min"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr "Beleid voor schalen van CPU-frequentie"
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr "Op batterij"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr ""
+"De schuifregelaar controleert de helderheid wanneer het systeem op "
+"batterijen draait"
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr "Moment waarop de overgebleven tijd voor de batterij de limiet bereikt"
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr "Moment waarop het laptopdeksel sluit"
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "Scherm vergrendelen"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "Onderbreek naar geheugen"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr ""
+"Onderbreken is een slaapstand, het systeem zal erg weinig energie gebruiken "
+"bij onderbreken"
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "Onderbreken naar schijf"
+
+#: ui.py:84
+#, fuzzy
+#| msgid ""
+#| "Hibernate or \"Suspend to Disk\" is a deep sleepstate, allowing the "
+#| "system to power off completely"
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr ""
+"Slaapstand of \"Onderbreken naar schijf\" is een diepe slaapstand, die "
+"toestaat dat het systeem helemaal geen energie meer gebruikt"
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "Stop de machine"

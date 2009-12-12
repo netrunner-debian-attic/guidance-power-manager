@@ -1,0 +1,316 @@
+# translation of guidance-power-manager.po to Khmer
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance-power-manager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2009-06-08 09:08+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "មិន​ធ្វើ​អ្វី​ទាំង​អស់"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "អេក្រង់​ទទេ"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "ផ្អាក"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "ក្រាំង"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "បិទ"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "ថាមវន្ត"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "រក្សា​ថាមពល"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "អនុវត្ត"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr "គោលការណ៍​ស៊ីភីយូ"
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr "គោលការណ៍​គោលនយោបាយ​ស៊ីភីយូ​បាន​ផ្លាស់ប្ដូរ​ទៅ​ថាមវន្ត ។"
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr "គោលការណ៍​ប្រេកង់​ស៊ីភីយូ​បាន​ផ្លាស់ប្ដូរ​ទៅ​ការ​អនុវត្ត ។"
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr "គោលការណ៍​ប្រេងក់​ស៊ីភីយូ​បានផ្លាស់ប្ដូរ​ទៅ​សន្សំ​ថាមពល ។"
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "គោលការណ៍​ប្រេកង់​ស៊ីភីយូ​បាន​ផ្លាស់ប្ដូរ​ទៅ​ %1 ។"
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "បាន​យក​ថ្ម​ចេញ ។"
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "បាន​បញ្ចូល​ថ្ម ។"
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>ថ្ម ៖</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr " បាន​បញ្ចូល​ពេញ"
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr " %1 ៖ %2h ត្រូវ​បញ្ចូលថ្ម"
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr "នៅ​សល់  %1 ៖ %2h"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "បាន​បទ​គម្រប​កុំព្យូទ័រ​យួរដៃ ក្រាំង​ឥឡូវ​ឬ ។"
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "បាន​បិទ​គម្រប​កុំព្យូទ័រ​យួរដៃ ដាក់​អេក្រង់​ទទេ​ឥឡូវ ។"
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "បាន​បិទ​គម្រប​កុំព្យូទ័រ​យួរដៃ ផ្អាក​ឥឡូវ ។"
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "បាន​បិទ​គម្រប​កុំព្យូទ័រ​យួរដៃ បិទ​ឥឡូវ ។"
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "ថ្ម %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "មិនបង្ហាញ"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "បញ្ចូល​ថ្ម (%p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "មិន​បញ្ចូល​ថ្ម (%p%) - %1 W"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "មិន​បញ្ចូល​ថ្ម (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>ប្រេកង់​ស៊ីភីយូ ៖</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "ប្រព័ន្ធ​ដំណើរការ %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>ប្រេងក់​ស៊ីភីយូ ៖</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "អាដាទ័រ​ AC ត្រូវ​បាន​ដក ប្ដូរ​ទៅ​របៀប​ថ្ម ។"
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "អាដាទ័រ AC ត្រូវ​បាន​ដោត ប្ដូរ​ទៅ​របៀប AC ។"
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr "អ្នក​ដំណើរការ​ជិត​អស់​ថ្ម​ហើយ មិនធ្វើ​អ្វី​ទាំង​អស់ ។"
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr "អ្នកដំណើរការ​ជិត​អស់​ថ្ម​ហើយ ទុក​អេក្រង់​ឲ្យ​ទទេ​ឥឡូវ​នេះ ។"
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr "អ្នក​ដំណើរការ​ជិត​អស់​ថ្ម​ហើយ ផ្អាក​ឥឡូវ​នេះ ។"
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "អ្នក​ដំណើរការ​ជិត​អស់​ថ្ម​ហើយ ក្រាំង​ឥឡូវ​នេះ ។"
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "អ្នក​ដំណើរការ​ជិត​អស់​ថ្ម​ហើយ បិទ​ឥឡូវ ។"
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "ថ្ម​របស់​អ្នក​ជិត​អស់​ហើយ ។"
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "ប្រព័ន្ធ​ទំនេរ​យ៉ាងហោចណាស់ %1 នាទី មិន​អ្វី​ទាំង​អស់​ឥឡូវ ។"
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "ប្រព័ន្ធ​ទំនេរ​យ៉ាង​ហោចណាស់ %1 នាទី ទុក​អេក្រង់​ឲ្យ​ទទេ​ឥឡូវ ។"
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] "ប្រព័ន្ធ​ទំនេរ​​យ៉ាង​ហោចណាស់ %1 នាទី ផ្អាក​ឥឡូវ ។"
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] "ប្រព័ន្ធ​ទំនេរ​យ៉ាង​ហោចណាស់ %1 នាទី ក្រាំង​ឥឡូវ ។"
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "ប្រព័ន្ធ​ទំនេរ​យ៉ាង​ហោចណាស់ %1 នាទី បិទ​វា​ឥឡូវ​ ។"
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "អំពី"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr "គោលការណ៍​របស់​​កម្មវិធី​គ្រប់គ្រង​ថាមពល"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr "អាប់ភ្លេត​សម្រាប់​​ព័ត៌មាន​ថ្ម​ និង​ការ​កំណត់​ពន្លឺss"
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ២០០៦-២០០៨ ដោយ Sebastian Kügler, Canonical Ltd, Luka Renko"
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "ការ​កំណត់​ទូទៅ"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr "ចាក់សោ​អេក្រង់​នៅពេល​បន្ត"
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr "ថាមពល​​ចម្បង"
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "ពន្លឺ"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr "ជា​មួយ​គ្រាប់រំកិល​នេះ អ្នក​អាច​កំណត់​ពន្លឺ​នៅពេល​ប្រព័ន្ធ​ត្រូវ​បានដោត​ទៅ​ក្នុង​រន្ធ​អគ្គិសនី"
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr "នៅពេល​ប្រព័ន្ធ​ទំនេរ​លើស​ពី"
+
+#: ui.py:24 ui.py:48 ui.py:54
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+"ដើម្បី​​ការ​ពារ​ការ​បាត់​បង់​ទិន្នន័យ ឬ​ការ​ខូចខាត​ផ្សេងៗ អ្នកអាច​ឲ្យ​ប្រព័ន្ធ​ផ្អាក ឬ​ក្រាំង ដូច្នេះ​អ្នក​​"
+"ដំណើរការ​ជិត​អស់​ថ្ម​ហើយ ។ កំណត់​រចនាសម្ព័ន្ធ​ចំនួន​នាទីខាង​ក្រោម​ដែលម៉ាស៊ីន​នឹង​រត់​សកម្មភាព​ដែល​បានកំណត់​"
+"រចនាសម្ព័ន្ធ ។"
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr " នាទី"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr "គោលការណ៍​ធ្វើមាត្រដ្ឋាន​ប្រេកង់​ស៊ីភីយូ"
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr "ប្រើ​ថាមពល​ថ្ម"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr "គ្រាប់រំកិល​នេះ​ត្រួតពិនិត្យ​ពន្លឺ នៅពេល​ប្រព័ន្ធ​រត់​លើ​ថ្ម"
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr "នៅពេល​ថ្ម​នៅ​សល់​ទម្លាក់​ខាងក្រោម"
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr "នៅ​ពេល​បិទ​គម្របកុំព្យូទ័រ​យយួរដៃ"
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "ចាក់សោ​អេក្រង់"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "ផ្អាក​ទៅ​សតិ"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr "ការ​ផ្អាក​គឺ​ជា​ការ​ដេក ប្រព័ន្ធ​នឹង​បន្ត​តែ​ជា​មួយ​ថាមពល​តិចតួច​ប៉ុណ្ណោះ នៅពេល​បានផ្អាក"
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "ផ្អាក​ទៅ​ថាស"
+
+#: ui.py:84
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr "ក្រាំង ឬ \"ផ្អាក​ទៅ​ថាស\" គឺ​ជា​ការ​ដេក​យូរ​ អនុញ្ញាត​ឲ្យ​ប្រព័ន្ធ​បិទ​ថាមពល​ទាំង​អស់"
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "បញ្ឈប់​ម៉ាស៊ីន"

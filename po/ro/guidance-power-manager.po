@@ -1,0 +1,337 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sergiu Bivol <sergiu@ase.md>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance-power-manager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2009-04-24 13:04+0300\n"
+"Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@lists.kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > "
+"0 && n%100 < 20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "Nu fă nimic"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "Golește ecranul"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "Suspendă"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "Hibernează"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "Închide"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "Dinamică"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "Economisire"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "Performanță"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr "Politică procesor"
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr "Politica de frecvență a procesorului schimbată la dinamică."
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr "Politica de frecvență a procesorului schimbată la performanță."
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr "Politica de frecvență a procesorului schimbată la economisire."
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "Politica de frecvență a procesorului schimbată la %1."
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "Acumulatorul a fost îndepărtat."
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "Acumulatorul a fost introdus."
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>Acumulator:</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr " complet încărcat"
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr " %1:%2o pentru încărcare"
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr " %1:%2o rămase"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "Capacul laptopului este închis, hibernez acum."
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "Capacul laptopului este închis, golesc ecranul acum."
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "Capacul laptopului este închis, suspend acum."
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "Capacul laptopului este închis, opresc acum."
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "Acumulator %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "absent"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "Încărcare (%p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "Descărcare (%p%) - %1 W"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "Descărcare (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>Frecvență procesor:</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "Procesor %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>Frecvență procesor:</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr ""
+"Adaptorul de alimentare a fost detașat, comut la regimul de acumulator."
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "Adaptorul de alimentare a fost atașat, comut la regimul AC."
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr ""
+"Sînteți pe cale de a rămîne fără energie în acumulator, nu fac nimic acum."
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr ""
+"Sînteți pe cale de a rămîne fără energie în acumulator, golesc ecranul acum."
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr "Sînteți pe cale de a rămîne fără energie în acumulator, suspend acum."
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "Sînteți pe cale de a rămîne fără energie în acumulator, hibernez acum."
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "Sînteți pe cale de a rămîne fără energie în acumulator, opresc acum."
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "Aveți puțină energie în acumulator."
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "Sistem inactiv pentru cel puțin %1 minut, nu fac nimic acum."
+msgstr[1] "Sistem inactiv pentru cel puțin %1 minute, nu fac nimic acum."
+msgstr[2] "Sistem inactiv pentru cel puțin %1 de minute, nu fac nimic acum."
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "Sistem inactiv pentru cel puțin %1 minut, golesc ecranul acum."
+msgstr[1] "Sistem inactiv pentru cel puțin %1 minute, golesc ecranul acum."
+msgstr[2] "Sistem inactiv pentru cel puțin %1 de minute, golesc ecranul acum."
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] "Sistem inactiv pentru cel puțin %1 minut, suspend acum."
+msgstr[1] "Sistem inactiv pentru cel puțin %1 minute, suspend acum."
+msgstr[2] "Sistem inactiv pentru cel puțin %1 de minute, suspend acum."
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] "Sistem inactiv pentru cel puțin %1 minut, hibernez acum."
+msgstr[1] "Sistem inactiv pentru cel puțin %1 minute, hibernez acum."
+msgstr[2] "Sistem inactiv pentru cel puțin %1 de minute, hibernez acum."
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "Sistem inactiv pentru cel puțin %1 minut, închid acum."
+msgstr[1] "Sistem inactiv pentru cel puțin %1 minute, închid acum."
+msgstr[2] "Sistem inactiv pentru cel puțin %1 de minute, închid acum."
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "Despre"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr "Gestionarul de alimentare Guidance"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr ""
+"Miniaplicație pentru informații despre acumulator și stabilirea luminozității"
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr "Drept de autor 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "Configurări generale"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr "Blochează ecranul la reluare"
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr "Alimentat de la priză"
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "Luminozitate"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr ""
+"Cu acest glisor puteți stabili luminozitatea atunci cînd sistemul este "
+"conectat la priză"
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr "Cînd sistemul este inactiv mai mult de"
+
+#: ui.py:24 ui.py:48 ui.py:54
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+"Pentru a preveni pierderea datelor sau alte daune, sistemul poate să se "
+"suspende sau să hiberneze, astfel încît să nu rămîneți accidental fără "
+"energie în acumulator. Configurați numărul de minute sub care mașina va "
+"executa comanda configurată."
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr " min"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr "Politica de scalare a frecvenței procesorului"
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr "Alimentat de la acumulator"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr ""
+"Acest glisor controlează luminozitatea cînd sistemul lucrează pe acumulator"
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr "Cînd timpul de acumulator rămas cade sub"
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr "Cînd capacul laptopului este închis"
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "Blochează ecranul"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "Suspendă în memorie"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr ""
+"Suspendarea este o stare de adormire, sistemul va consuma doar foarte puțină "
+"energie cînd este suspendat"
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "Suspendă pe disc"
+
+#: ui.py:84
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr ""
+"Hibernarea sau „Suspendarea pe disc” este o stare de somn adînc, permițînd "
+"sistemului să se deconecteze complet"
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "Deconectează mașina"

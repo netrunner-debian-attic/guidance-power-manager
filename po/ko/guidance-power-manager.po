@@ -1,0 +1,332 @@
+# Translation of guidance-power-manager to Korean.
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the guidance-power-manager package.
+#
+# Park Shinjo <peremen@gmail.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance-power-manager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2009-03-23 05:10+0900\n"
+"Last-Translator: \n"
+"Language-Team: Korean <cho.sungjae@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "아무것도 하지 않음"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "화면 비우기"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "대기 모드"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "최대 절전 모드"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "시스템 종료"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "유동적"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "절전"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "성능"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr "CPU 정책"
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr "CPU 주파수 정책이 유동적으로 바뀌었습니다."
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr "CPU 주파수 정책이 성능으로 바뀌었습니다."
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr "CPU 주파수 정책이 절전으로 바뀌었습니다."
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "CPU 주파수 정책이 %1(으)로 바뀌었습니다."
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "배터리가 제거되었습니다."
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "배터리가 삽입되었습니다."
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>배터리:</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr " 완전히 충전됨"
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr " %1:%2 후 충전 완료됨"
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr " %1:%2h 남음"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "노트북 덮개가 덮혔습니다. 최대 절전 모드로 들어갑니다."
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "노트북 덮개가 덮혔습니다. 화면을 비웁니다."
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "노트북 덮개가 덮혔습니다. 대기 모드로 들어갑니다."
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "노트북 덮개가 덮혔습니다. 컴퓨터를 끕니다."
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "배터리 %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "없음"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "충전 중 (&p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "방전 중 (%p%) - %1W"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "방전 중 (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>CPU 주파수</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "프로세서 %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>CPU 주파수:</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "AC 어댑터가 제거되었습니다. 배터리 모드로 전환합니다."
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "AC 어댑터가 연결되었습니다. AC 모드로 전환합니다."
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr "배터리 전원이 거의 없습니다. 아무것도 하지 않습니다."
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr "배터리 전원이 거의 없습니다. 화면을 비웁니다."
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr "배터리 전원이 거의 없습니다. 대기 모드로 들어갑니다."
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "배터리 전원이 거의 없습니다. 최대 절전 모드로 들어갑니다."
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "배터리 전원이 거의 없습니다. 컴퓨터를 끕니다."
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "배터리가 부족합니다."
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "시스템이 %1분 동안 유휴 상태였습니다. 아무것도 하지 않습니다."
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "시스템이 %1분 동안 유휴 상태였습니다. 화면을 비웁니다."
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] "시스템이 %1분 동안 유휴 상태였습니다. 대기 모드로 들어갑니다."
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] "시스템이 %1분 동안 유휴 상태였습니다. 최대 절전 모드로 들어갑니다."
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "시스템이 %1분 동안 유휴 상태였습니다. 컴퓨터를 끕니다."
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "정보"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr "Guidance 전원 관리자"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr "배터리 정보 및 밝기 설정 애플릿"
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr "저작권자 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "일반 설정"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr "다시 시작할 때 화면 잠그기"
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr "전원 연결됨"
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "밝기"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr ""
+"이 슬라이더를 사용하면 시스템이 전원에 연결되었을 때의 밝기를 조정할 수 있습"
+"니다"
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr "시스템이 다음 시간 이상 유휴 상태일 때"
+
+#: ui.py:24 ui.py:48 ui.py:54
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+"데이터 손실이나 다른 손상을 방지하기 위해서 시스템을 대기 모드로 진입시키거"
+"나 최대 절전 모드로 진입시켜서 배터리가 갑자기 부족해지는 것을 막을 수 있습니"
+"다. 동작이 실행될 때 까지 걸리는 분 수를 설정할 수 있습니다."
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr " 분"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr "CPU 주파수 조절 정책"
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr "배터리 전원"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr "이 슬라이더는 시스템이 배터리로 실행될 때 밝기를 조정합니다"
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr "배터리 남은 시간이 다음 이하로 줄어들 때"
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr "노트북 덮개를 덮었을 때"
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "화면 잠그기"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "대기 모드"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr "대기 모드는 수면 상태로 시스템의 전원은 매우 적게 사용합니다"
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "최대 절전 모드"
+
+#: ui.py:84
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr "최대 절전 모드는 깊은 수면 상태로 시스템의 전원을 완전히 끕니다"
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "컴퓨터 끄기"
+
+#~ msgid "doing nothing"
+#~ msgstr "아무것도 하지 않음"
+
+#~ msgid "blanking screen"
+#~ msgstr "화면 비우는 중"
+
+#~ msgid "suspending"
+#~ msgstr "대기 모드로 들어가는 중"
+
+#~ msgid "hibernating"
+#~ msgstr "최대 절전 모드로 들어가는 중"
+
+#~ msgid "shutting down"
+#~ msgstr "끄는 중"

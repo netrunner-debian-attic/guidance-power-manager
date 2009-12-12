@@ -1,0 +1,341 @@
+# translation of guidance-power-manager.po to Greek
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Spiros Georgaras <sngeorgaras@otenet.gr>, 2008.
+# Spiros Georgaras <sng@hellug.gr>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance-power-manager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2008-07-04 11:10+0300\n"
+"Last-Translator: Spiros Georgaras <sng@hellug.gr>\n"
+"Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "Καμία ενέργεια"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "Κενή οθόνη"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "Αναστολή"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "Αδρανοποίηση"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "Τερματισμός"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "Δυναμική"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "Συντήρηση ενέργειας"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "Επιδόσεις"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr "Πολιτική ΚΜΕ"
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr "Η πολιτική συχνότητας της ΚΜΕ τροποποιήθηκε σε δυναμική."
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr "Η πολιτική συχνότητας της ΚΜΕ τροποποιήθηκε σε επίδοση."
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr "Η πολιτική συχνότητας της ΚΜΕ τροποποιήθηκε σε συντήρηση ενέργειας."
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "Η πολιτική συχνότητας της ΚΜΕ τροποποιήθηκε σε %1."
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "Η μπαταρία αφαιρέθηκε."
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "Η μπαταρία έχει εισαχθεί."
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>Μπαταρία:</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr " πλήρως φορτισμένη"
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr " %1:%2h για φόρτιση"
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr " απομένουν %1:%2h"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "Το καπάκι του φορητού είναι κλειστό, γίνεται αδρανοποίηση."
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "Το καπάκι του φορητού είναι κλειστό, κλείνει η οθόνη."
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "Το καπάκι του φορητού είναι κλειστό, γίνεται αναστολή."
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "Το καπάκι του φορητού είναι κλειστό, γίνεται τερματισμός."
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "Μπαταρία %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "δεν υπάρχει"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "Φόρτιση (%p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "Αποφόρτιση (%p%) - %1 W"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "Αποφόρτιση (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>Συχνότητα ΚΜΕ:</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "Επεξεργαστής %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>Συχνότητα ΚΜΕ:</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "Ο μετασχηματιστής αποσυνδέθηκε, εναλλαγή σε λειτουργία μπαταρίας."
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "Ο μετασχηματιστής συνδέθηκε, εναλλαγή σε λειτουργία ρεύματος."
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr "Η ενέργεια της μπαταρίας τελειώνει, καμία ενέργεια."
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr "Η ενέργεια της μπαταρίας τελειώνει, κλείσιμο της οθόνης."
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr "Η ενέργεια της μπαταρίας τελειώνει, γίνεται αναστολή."
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "Η ενέργεια της μπαταρίας τελειώνει, γίνεται αδρανοποίηση."
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "Η ενέργεια της μπαταρίας τελειώνει, γίνεται τερματισμός."
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "Η στάθμη της μπαταρίας είναι χαμηλή."
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "Το σύστημα αδρανές για τουλάχιστον %1 λεπτό, καμία ενέργεια."
+msgstr[1] "Το σύστημα αδρανές για τουλάχιστον %1 λεπτά, καμία ενέγεια."
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "Το σύστημα αδρανές για τουλάχιστον %1 λεπτό, κλείσιμο της οθόνης."
+msgstr[1] "Το σύστημα αδρανές για τουλάχιστον %1 λεπτά, κλείσιμο της οθόνης."
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] "Το σύστημα αδρανές για τουλάχιστον %1 λεπτό, γίνεται αναστολή."
+msgstr[1] "Το σύστημα αδρανές για τουλάχιστον %1 λεπτά, γίνεται αναστολή."
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] "Το σύστημα αδρανές για τουλάχιστον %1 λεπτό, γίνεται αδρανοποίηση."
+msgstr[1] "Το σύστημα αδρανές για τουλάχιστον %1 λεπτά, γίνεται αδρανοποίηση."
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "Το σύστημα αδρανές για τουλάχιστον %1 λεπτό, γίνεται τερματισμός."
+msgstr[1] "Το σύστημα αδρανές για τουλάχιστον %1 λεπτά, γίνεται τερματισμός."
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "Σχετικά"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr "Διαχειριστής ενέργειας Guidance"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr "Μικροεφαρμογή πληροφοριών μπαταρίας και ρύθμισης φωτεινότητας"
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr ""
+"Πνευματικά δικαιώματα 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr "Κλείδωμα οθόνης μετά από επαναφορά"
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr "Ενέργεια ρεύματος"
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "Φωτεινότητα"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr ""
+"Με αυτήν την κύλιση μπορείτε να ορίσετε τη φωτεινότητα όταν το σύστημα είναι "
+"συνδεδεμένο στο ρεύμα"
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr "Όταν το σύστημα είναι αδρανές πάνω από"
+
+#: ui.py:24 ui.py:48 ui.py:54
+#, fuzzy
+#| msgid ""
+#| "To prevent data loss or other damage, you can have the system suspend or "
+#| "hibernate, so you don't run accidentally out of battery power. Configure "
+#| "the number of minutes below which the machine will run the configured "
+#| "action."
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+"Για την αποτροπή απώλειας δεδομένων ή άλλου προβλήματος, μπορείτε να "
+"αναστείλετε ή να αδρανοποιήσετε το σύστημα, έτσι ώστε να μην μείνετε ξαφνικά "
+"εκτός μπαταρίας. Ρυθμίστε τον αριθμό των λεπτών μετά τα οποία το μηχάνημα θα "
+"εκτελέσει τη ρυθμισμένη ενέργεια."
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr " λεπτά"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr "Πολιτική κλιμάκωσης συχνότητας ΚΜΕ"
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr "Ενέργεια από μπαταρία"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr ""
+"Αυτή η κύλιση ελέγχει τη φωτεινότητα όταν το σύστημα τροφοδοτείται από "
+"μπαταρία"
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr "Όταν ο υπολειπόμενος χρόνος της μπαταρίας είναι κάτω από"
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr "Όταν το καπάκι του φορητού είναι κλειστό"
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "Κλείδωμα οθόνης"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "Αναστολή στη μνήμη"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr ""
+"Η αναστολή είναι μια κατάσταση νάρκης, το σύστημα καταναλώνει ένα πολύ μικρό "
+"ποσό ενέργειας σε αυτήν την κατάσταση"
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "Αναστολή στο δίσκο"
+
+#: ui.py:84
+#, fuzzy
+#| msgid ""
+#| "Hibernate or \"Suspend to Disk\" is a deep sleepstate, allowing the "
+#| "system to power off completely"
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr ""
+"Η αδρανοποίηση ή \"Αναστολή στο δίσκο\" είναι μια βαθιά κατάσταση νάρκης, "
+"που επιτρέπει στο σύστημα την πλήρη διακοπή του ρεύματος"
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "Τερματισμός του υπολογιστή"

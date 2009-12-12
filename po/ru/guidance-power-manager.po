@@ -1,0 +1,341 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Nick Shaforostoff <shaforostoff@kde.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance-power-manager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2008-12-01 04:31+0200\n"
+"Last-Translator: Nick Shaforostoff <shaforostoff@kde.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "Ничего не делать"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "Пустой экран"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "Спящий режим"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "Гибернация"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "Завершение работы"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "Динамически"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "Энергосбережение"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "Быстродействие"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr "Правила ЦПУ"
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr "Правило для частоты ЦПУ изменено на: динамически."
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr "Правило для частоты ЦПУ изменено на: быстродействие."
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr "Правило для частоты ЦПУ изменено на: энергосбережение."
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "Правило для частоты ЦПУ изменено на: энергосбережение %1."
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "Батарея извлечена"
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "Батарея установлена"
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>Батарея:</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr "Полностью заряжено"
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr " %1:%2ч до полной зарядки"
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr "осталось %1:%2ч"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "Крышка закрыта, выполняется переход к гибернации."
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "Крышка закрыта, выполняется очистка экрана."
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "Крышка закрыта, выполняется переход к спящему режиму."
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "Крышка закрыта, выполняется завершение работы."
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "Батарея %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "отсутствует"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "Заряжается (%p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "Разряжается (%p%) - %1 Вт"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "Разряжается (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>Тактовая частота ЦПУ:</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "Процессор %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>Тактовая частота ЦПУ:</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "Адаптер питания отключен, включен режим батареи."
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "Адаптер питания подключен, включен режим питания от сети"
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr "Заряд батареи подходит к концу, ничего не делать."
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr "Заряд батареи подходит к концу, выполняется очистка экрана."
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr "Заряд батареи подходит к концу, выполняется переход к спящему режиму."
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "Заряд батареи подходит к концу, выполняется переход к гибернации."
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "Заряд батареи подходит к концу, выполняется завершение работы."
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "Низкий заряд батареи."
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "Система бездействует %1 минуту, ничего не делать."
+msgstr[1] "Система бездействует %1 минуты, ничего не делать."
+msgstr[2] "Система бездействует %1 минут, ничего не делать."
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "Система бездействует %1 минуту, выполняется очистка экрана."
+msgstr[1] "Система бездействует %1 минуты, выполняется очистка экрана."
+msgstr[2] "Система бездействует %1 минут, выполняется очистка экрана."
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] ""
+"Система бездействует %1 минуту, выполняется переход к спящему режиму."
+msgstr[1] ""
+"Система бездействует %1 минуты, выполняется переход к спящему режиму."
+msgstr[2] ""
+"Система бездействует %1 минут, выполняется переход к спящему режиму."
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] "Система бездействует %1 минуту, выполняется переход к гибернации."
+msgstr[1] "Система бездействует %1 минуты, выполняется переход к гибернации."
+msgstr[2] "Система бездействует %1 минут, выполняется переход к гибернации."
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "Система бездействует %1 минуту, выполняется завершение работы."
+msgstr[1] "Система бездействует %1 минуты, выполняется завершение работы."
+msgstr[2] "Система бездействует %1 минут, выполняется завершение работы."
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "О программе"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr "Guidance - Управление электропитанием"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr "Апплет информации о батарее и настройке яркости"
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "Основные параметры"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr "Заблокировать экран при возврате"
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr ""
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "Яркость"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr "Ползунок управляет яркостью экрана при от розетки"
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr "Если система бездействует дольше чем"
+
+#: ui.py:24 ui.py:48 ui.py:54
+#, fuzzy
+#| msgid ""
+#| "To prevent data loss or other damage, you can have the system suspend or "
+#| "hibernate, so you don't run accidentally out of battery power. Configure "
+#| "the number of minutes below which the machine will run the configured "
+#| "action."
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+"Для предотвращения потери данных или иного ущерба можно использовать спящий "
+"режим или гибернацию, это позволит избежать внезапного окончания заряда "
+"батареи. Здесь настраивается остающееся время в минутах при достижении "
+"которого система выполнит указанное действие."
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr "мин"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr "Стратегия выбора частоты процессора"
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr "Питание от батареи"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr "Ползунок управляет яркостью экрана при питании от батареи"
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr "Когда оставшееся время работы от батареи падает ниже"
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr "Когда крышка лэптопа закрыта"
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "Заблокировать экран"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "Спящий режим"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr "Спящий режим - «состояние сна» с очень малым потреблением энергии"
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "Гибернация"
+
+#: ui.py:84
+#, fuzzy
+#| msgid ""
+#| "Hibernate or \"Suspend to Disk\" is a deep sleepstate, allowing the "
+#| "system to power off completely"
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr ""
+"Гибернация - состояние «глубокого сна», позволяющее полностью отключить "
+"питание системы "
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "Выключить систему"

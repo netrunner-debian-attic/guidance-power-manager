@@ -1,0 +1,325 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrew Coles <andrew_coles@yahoo.co.uk>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2009-03-17 08:36+0000\n"
+"Last-Translator: Andrew Coles <andrew_coles@yahoo.co.uk>\n"
+"Language-Team: British English <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "Do nothing"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "Blank screen"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "Suspend"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "Hibernate"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "Shutdown"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "Dynamic"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "Powersave"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "Performance"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr "CPU policy"
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr "CPU frequency policy changed to dynamic."
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr "CPU frequency policy changed to performance."
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr "CPU frequency policy changed to powersave."
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "CPU frequency policy changed to %1."
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "The battery has been removed."
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "The battery has been inserted."
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>Battery:</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr " fully charged"
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr " %1:%2h to charge"
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr " %1:%2h remaining"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "Laptop lid is closed, hibernating now."
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "Laptop lid is closed, blanking screen now."
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "Laptop lid is closed, suspending now."
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "Laptop lid is closed, shutting down now."
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "Battery %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "not present"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "Charging (%p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "Discharging (%p%) - %1 W"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "Discharging (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>CPU Frequency:</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "Processor %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>CPU Frequency:</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "The AC adapter has been unplugged, switching to battery mode."
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "The AC adapter has been plugged in, switching to AC mode."
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr "You are about to run out of battery power, doing nothing now."
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr "You are about to run out of battery power, blanking screen now."
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr "You are about to run out of battery power, suspending now."
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "You are about to run out of battery power, hibernating now."
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "You are about to run out of battery power, shutting down now."
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "You are low on battery power."
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "System idle for at least %1 minute, doing nothing now."
+msgstr[1] "System idle for at least %1 minutes, doing nothing now."
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "System idle for at least %1 minute, blanking screen now."
+msgstr[1] "System idle for at least %1 minutes, blanking screen now."
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] "System idle for at least %1 minute, suspending now."
+msgstr[1] "System idle for at least %1 minutes, suspending now."
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] "System idle for at least %1 minute, hibernating now."
+msgstr[1] "System idle for at least %1 minutes, hibernating now."
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "System idle for at least %1 minute, shutting down now."
+msgstr[1] "System idle for at least %1 minutes, shutting down now."
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "About"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr "Guidance Power Manager"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr "Applet for battery info and setting brightness"
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "General Settings"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr "Lock screen on resume"
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr "Mains Powered"
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "Brightness"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr ""
+"With this slider you can set the brightness when the system is plugged into "
+"the mains"
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr "When the system is idle for more than"
+
+#: ui.py:24 ui.py:48 ui.py:54
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr " min"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr "CPU frequency scaling policy"
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr "Battery Powered"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr "This slider controls the brightness when the system runs on batteries"
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr "When battery remaining time drops below"
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr "When Laptop Lid Closed"
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "Lock screen"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "Suspend to Memory"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "Suspend to Disk"
+
+#: ui.py:84
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "Halt the machine"

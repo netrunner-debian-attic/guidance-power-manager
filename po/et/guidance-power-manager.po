@@ -1,0 +1,322 @@
+# translation of guidance-power-manager.po to Estonian
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <bald@smail.ee>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance-power-manager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2009-03-24 02:20+0200\n"
+"Last-Translator: Marek Laane <bald@smail.ee>\n"
+"Language-Team: Estonian <kde-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "Ei tehta midagi"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "Ekraani pimendatakse"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "Passiivseisundisse"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "Talveunne"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "Seisatakse"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "Dünaamiline"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "Toite säästmine"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "Jõudlus"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr "Protsessori reegel"
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr "Protsessori sageduse reegel on nüüd dünaamiline."
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr "Protsessori sageduse reegel on nüüd jõudlus."
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr "Protsessori sageduse reegel on nüüd toite säästmine."
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "Protsessori sageduse reegel on nüüd %1."
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "Aku on eemaldatud."
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "Aku on sisestatud."
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>Aku:</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr " täielikult laaditud"
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr " %1:%2h laadimiseni"
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr " %1:%2h jäänud"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "Sülearvuti kaas on suletud, minnakse talveunne."
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "Sülearvuti kaas on suletud, ekraan pimendatakse."
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "Sülearvuti kaas on suletud, minnakse passiivseisundisse."
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "Sülearvuti kaas on suletud, masin seisatakse."
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "Aku %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "puudub"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "Laaditakse (%p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "Tühjenemine (%p%) - %1 W"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "Tühjenemine (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>Protsessori sagedus:</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "Protsessor %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b> Protsessori sagedus:</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "AC-adapter on lahti ühendatud, lülitutakse akutoitele."
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "AC-adapter on ühendatud, lülitutakse AC toitele."
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr "Aku on tühjenemas, midagi ei võeta ette."
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr "Aku on tühjenemas, ekraan pimendatakse."
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr "Aku on tühjenemas, minnakse passiivseisundisse."
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "Aku on tühjenemas, minnake talveunne."
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "Aku on tühjenemas, masin seisatakse."
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "Aku hakkab varsti tühjaks saama."
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "Süsteem on jõude vähemalt %1 minut, praegu ei tehta midagi."
+msgstr[1] "Süsteem on jõude vähemalt %1 minutit, praegu ei tehta midagi."
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "Süsteem on jõude vähemalt %1 minut, ekraan pimendatakse."
+msgstr[1] "Süsteem on jõude vähemalt %1 minutit, ekraan pimendatakse."
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] "Süsteem on jõude vähemalt %1 minut, minnakse passiivseisundisse."
+msgstr[1] "Süsteem on jõude vähemalt %1 minutit, minnakse passiivseisundisse."
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] "Süsteem on jõude vähemalt %1 minut, minnakse talveunne."
+msgstr[1] "Süsteem on jõude vähemalt %1 minutit, minnakse talveunne."
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "Süsteem on jõude vähemalt %1 minut, masin seisatakse."
+msgstr[1] "Süsteem on jõude vähemalt %1 minutit, masin seisatakse."
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "Info"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr "Guidance toitehaldur"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr "Aku info ja heleduse määramise aplett"
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr "Autoriõigus 2006-2008: Sebastian Kügler, Canonical Ltd, Luka Renko"
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "Üldised seadistused"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr "Ekraani lukustamine taastamisel"
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr "Võrgutoide"
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "Heledus"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr "Selle liuguriga saab määrata heleduse, kui süsteem on võrgutoitel"
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr "Kui süsteem on jõude rohkem kui"
+
+#: ui.py:24 ui.py:48 ui.py:54
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+"Andmekao või muu häda vältimiseks võib lasta süsteemi passiivseisundisse või "
+"talveunne, et aku juhuslikult tühjaks ei saaks. Siin saab määrata aja "
+"minutites, mille järel masin võtab ette määratud toimingu."
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr " min"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr "Protsessori sageduse skaleerimise reegel"
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr "Akutoide"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr "Selle liuguriga saab määrata heleduse, kuis süsteem on akutoitel"
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr "Kui akut jätkub jätkub vähemaks kui"
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr "Kui sülearvuti ekraan on suletud"
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "Lukustatakse ekraan"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "Passiivseisundisse mälus"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr "Passiivseisund on uneolek, milles süsteem tarbib väga vähe energiat"
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "Passiivseisundisse kettal"
+
+#: ui.py:84
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr ""
+"Talveuni ehk passiivseisund kettal on sügav uneolek, mille puhul süsteem ei "
+"tarbi üldse energiat"
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "Peatatakse masin"

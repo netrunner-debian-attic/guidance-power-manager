@@ -1,0 +1,335 @@
+# translation of guidance-power-manager.po to Punjabi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# A S Alam <aalam@users.sf.net>, 2008.
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance-power-manager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2009-01-01 07:52+0530\n"
+"Last-Translator: Amanpreet Singh Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjab-l10n@list.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 0.2\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "ਕੁਝ ਨਾ ਕਰੋ"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "ਸਕਰੀਨ ਬੰਦ ਕਰੋ"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "ਸਸਪੈਂਡ"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "ਹਾਈਬਰਨੇਟ"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "ਬੰਦ ਕਰੋ"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "ਡਾਇਨੈਮਿਕ"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr "ਪਾਵਰ-ਸੇਵ"
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "ਕਾਰਗੁਜ਼ਾਰੀ"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr "CPU ਪਾਲਸੀ"
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr "CPU ਫਰੀਕਿਊਂਸੀ ਪਾਲਸੀ ਡਾਇਨੈਮਿਕ ਲਈ ਬਦਲੀ ਗਈ।"
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr "CPU ਫਰੀਕਿਊਂਸੀ ਪਾਲਸੀ ਕਾਰਗੁਜ਼ਾਰੀ ਲਈ ਬਦਲੀ ਗਈ।"
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr "CPU ਫਰੀਕਿਊਂਸੀ ਪਾਲਸੀ ਪਾਵਰ-ਸੇਵ ਲਈ ਬਦਲੀ ਗਈ।"
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr "CPU ਫਰੀਕਿਊਂਸੀ ਪਾਲਸੀ %1 ਲਈ ਬਦਲੀ ਗਈ।"
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr "ਬੈਟਰੀ ਹਟਾਈ ਗਈ ਹੈ।"
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr "ਬੈਟਰੀ ਲਗਾਈ ਗਈ ਹੈ।"
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>ਬੈਟਰੀ:</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr " ਪੂਰੀ ਤਰ੍ਹਾਂ ਚਾਰਜ ਹੈ"
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr " %1:%2h ਚਾਰਜ ਹੋਣ ਲਈ"
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr " %1:%2h ਬਾਕੀ"
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "ਲੈਪਟਾਪ lid ਬੰਦ ਕੀਤੀ ਗਈ ਹੈ, ਹੁਣ ਹਾਈਬਰਨੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "ਲੈਪਟਾਪ lid ਬੰਦ ਕੀਤੀ ਗਈ ਹੈ, ਹੁਣ ਸਕਰੀਨ ਬੰਦ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ।"
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "ਲੈਪਟਾਪ lid ਬੰਦ ਕੀਤੀ ਗਈ ਹੈ, ਹੁਣ ਸਸਪੈਂਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "ਲੈਪਟਾਪ lid ਬੰਦ ਕੀਤੀ ਗਈ ਹੈ, ਹੁਣ ਬੰਦ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "ਬੈਟਰੀ %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "ਮੌਜੂਦ ਨਹੀਂ"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "ਚਾਰਜ ਹੋ ਰਿਹਾ ਹੈ (%p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "ਡਿਸਚਾਰਜ ਹੋ ਰਿਹਾ ਹੈ (%p%) - %1 W"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "ਡਿਸਚਾਰਜ ਹੋ ਰਿਹਾ ਹੈ (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>CPU ਫਰੀਕਿਊਨਸੀ:</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "ਪਰੋਸੈੱਸਰ %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>CPU ਫਰੀਕਿਊਨਸੀ:</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "AC ਅਡੈਪਟਰ ਦਾ ਪਲੱਗ ਕੱਢਿਆ ਗਿਆ ਹੈ, ਬੈਟਰੀ ਮੋਡ ਵਿੱਚ ਬਦਲਿਆ।"
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "AC ਅਡੈਪਟਰ ਦਾ ਪਲੱਗ ਲੱਗਾ ਹੈ, AC ਮੋਡ ਵਿੱਚ ਬਦਲਿਆ ਜਾ ਰਿਹਾ ਹੈ।"
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr "ਤੁਹਾਡੀ ਬੈਟਰੀ ਪਾਵਰ ਖਤਮ ਹੋ ਗਈ ਹੈ, ਹੁਣ ਕੁਝ ਨਹੀਂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr "ਤੁਹਾਡੀ ਬੈਟਰੀ ਪਾਵਰ ਖਤਮ ਹੋ ਗਈ ਹੈ, ਹੁਣ ਸਕਰੀਨ ਬੰਦ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ।"
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr "ਤੁਹਾਡੀ ਬੈਟਰੀ ਪਾਵਰ ਖਤਮ ਹੋ ਗਈ ਹੈ, ਹੁਣ ਸਸਪੈਂਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr "ਤੁਹਾਡੀ ਬੈਟਰੀ ਪਾਵਰ ਖਤਮ ਹੋ ਗਈ ਹੈ, ਹੁਣ ਹਾਈਬਰਨੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr "ਤੁਹਾਡੀ ਬੈਟਰੀ ਪਾਵਰ ਖਤਮ ਹੋ ਗਈ ਹੈ, ਹੁਣ ਬੰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr "ਤੁਹਾਡੀ ਬੈਟਰੀ ਪਾਵਰ ਘੱਟ ਗਈ ਹੈ।"
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] "ਸਿਸਟਮ ਘੱਟੋ-ਘੱਟ %1 ਮਿੰਟ ਤੋਂ ਵੇਹਲਾ ਹੈ, ਹੁਣ ਕੁਝ ਨਹੀਂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+msgstr[1] "ਸਿਸਟਮ ਘੱਟੋ-ਘੱਟ %1 ਮਿੰਟਾਂ ਤੋਂ ਵੇਹਲਾ, ਹੁਣ ਕੁਝ ਨਹੀਂ ਕੀਤਾ ਜਾ ਰਿਹਾ।"
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] "ਸਿਸਟਮ ਘੱਟੋ-ਘੱਟ %1 ਮਿੰਟ ਤੋਂ ਵੇਹਲਾ, ਹੁਣ ਸਕਰੀਨ ਬਲੈਂਕ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ। "
+msgstr[1] "ਸਿਸਟਮ ਘੱਟੋ-ਘੱਟ %1 ਮਿੰਟਾਂ ਤੋਂ ਵੇਹਲਾ, ਹੁਣ ਸਕਰੀਨ ਬਲੈਂਕ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ।"
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] "ਸਿਸਟਮ ਘੱਟੋ-ਘੱਟ %1 ਮਿੰਟ ਤੋਂ ਵੇਹਲਾ, ਹੁਣ ਸਸਪੈਂਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+msgstr[1] "ਸਿਸਟਮ ਘੱਟੋ-ਘੱਟ %1 ਮਿੰਟ ਤੋਂ ਵੇਹਲਾ, ਹੁਣ ਸਸਪੈਂਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] "ਸਿਸਟਮ ਘੱਟੋ-ਘੱਟ %1 ਮਿੰਟ ਤੋਂ ਵੇਹਲਾ, ਹੁਣ ਹਾਈਬਰਨੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+msgstr[1] "ਸਿਸਟਮ ਘੱਟੋ-ਘੱਟ %1 ਮਿੰਟਾਂ ਤੋਂ ਵੇਹਲਾ, ਹੁਣ ਹਾਈਬਰਨੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] "ਸਿਸਟਮ ਘੱਟੋ-ਘੱਟ %1 ਮਿੰਟ ਤੋਂ ਵੇਹਲਾ, ਹੁਣ ਬੰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+msgstr[1] "ਸਿਸਟਮ ਘੱਟੋ-ਘੱਟ %1 ਮਿੰਟਾਂ ਤੋਂ ਵੇਹਲਾ, ਹੁਣ ਬੰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "ਇਸ ਬਾਰੇ"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr "ਗਾਈਡੈਂਸ ਪਾਵਰ ਮੈਨੇਜਰ"
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr "ਬੈਟਰੀ ਜਾਣਕਾਰੀ ਅਤੇ ਚਮਕ ਸੈਟਿੰਗ ਲਈ ਐਪਲਿਟ"
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr "ਕਾਪੀਰਾਈਟ 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "ਸਧਾਰਨ ਸੈਟਿੰਗ"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr "ਰਿਜਿਊਮ ਕਰਨ ਉੱਤੇ ਸਕਰੀਨ ਲਾਕ ਕਰੋ"
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr "ਮੇਨ ਪਾਵਰ ਉੱਤੇ"
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "ਚਮਕ"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr ""
+"ਇਸ ਸਲਾਈਡਰ ਨਾਲ ਤੁਸੀਂ ਚਮਕ ਸੈੱਟ ਕਰ ਸਕਦੇ ਹੋ, ਜਦੋਂ ਕਿ ਸਿਸਟਮ ਸਾਕਟ ਆਉਟਲਿੱਟ ਵਿੱਚ ਪਲੱਗ ਕੀਤਾ ਗਿਆ "
+"ਹੈ।"
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr "ਜਦੋਂ ਸਿਸਟਮ ਵੇਹਲਾ ਹੋਵੇ"
+
+#: ui.py:24 ui.py:48 ui.py:54
+#, fuzzy
+#| msgid ""
+#| "To prevent data loss or other damage, you can have the system suspend or "
+#| "hibernate, so you don't run accidentally out of battery power. Configure "
+#| "the number of minutes below which the machine will run the configured "
+#| "action."
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+"ਡਾਟਾ ਖਰਾਬ ਹੋਣ ਜਂ ਹੋਰ ਨੁਕਸਾਨ ਤੋਂ ਬਚਣ ਲਈ ਤੁਹਾਨੂੰ ਸਿਸਟਮ ਨੂੰ ਸਸਪੈਂਡ ਜਾਂ ਹਾਈਬਰਨੇਟ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, "
+"ਤਾਂ ਕਿ ਗਲਤੀ ਨਾਲ ਤੁਹਾਡੀ ਬੈਟਰੀ ਪਾਵਰ ਖਤਮ ਨਾ ਹੋ ਜਾਵੇ। ਹੇਠਾਂ ਮਿੰਟਾਂ ਦੀ ਸੰਰਚਨਾ ਕਰੋ, ਜਿਸ ਨਾਲ "
+"ਮਸ਼ੀਨ ਸੰਰਚਿਤ ਕੀਤੀਆਂ ਕਾਰਵਾਈ ਕਰੇ।"
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr " ਮਿੰਟ"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr "CPU ਫਰੀਕਿਊਂਸੀ ਸਕੇਲਿੰਗ ਪਾਲਸੀ"
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr "ਬੈਟਰੀ ਪਾਵਰ ਉੱਤੇ"
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr "ਇਹ ਸਲਾਈਡਰ ਚਮਕ ਕੰਟਰੋਲ ਕਰਦਾ ਹੈ, ਜਦੋਂ ਕਿ ਸਿਸਟਮ ਬੈਟਰੀ ਉੱਤੇ ਚੱਲਦਾ ਹੋਵੇ"
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr "ਜਦੋਂ ਬੈਟਰੀ ਟਾਈਮ ਖਤਮ ਹੋਣ ਤੋਂ ਹੇਠਾਂ ਚੱਲ ਰਹੀ ਹੋਵੇ"
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr "ਜਦੋਂ ਲੈਪਟਾਪ Lid ਬੰਦ ਕੀਤਾ ਜਾਵੇ"
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "ਸਕਰੀਨ ਲਾਕ ਕਰੋ"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "ਮੈਮੋਰੀ ਵਿੱਚ ਸਸਪੈਂਡ ਕਰੋ"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr "ਸਸਪੈਂਡ ਸਲੀਪ ਹਾਲਤ ਹੈ, ਸਿਸਟਮ ਜਦੋਂ ਸਸਪੈਂਡ ਹੁੰਦਾ ਹੈ ਤਾਂ ਬਹੁਤ ਹੀ ਥੋੜ੍ਹੀ ਊਰਜਾ ਵਰਤਦਾ ਹੈ।"
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "ਡਿਸਕ ਉੱਤੇ ਸਸਪੈਂਡ"
+
+#: ui.py:84
+#, fuzzy
+#| msgid ""
+#| "Hibernate or \"Suspend to Disk\" is a deep sleepstate, allowing the "
+#| "system to power off completely"
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr ""
+"ਹਾਈਬਰਨੇਟ ਜਾਂ \"ਡਿਸਕ ਉੱਤੇ ਸਸਪੈਂਡ\" ਇੱਕ ਡੂੰਘੀ ਸਲੀਪ-ਹਾਲਤ ਹੈ, ਜਿਸ ਨਾਲ ਸਿਸਟਮ ਪੂਰੀ ਤਰ੍ਹਾਂ ਪਾਵਰ-"
+"ਆਫ਼ ਹੁੰਦਾ ਹੈ।"
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "ਮਸ਼ੀਨ ਬੰਦ ਕਰੋ"

@@ -1,0 +1,334 @@
+# Irish translation of guidance-power-manager
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the guidance-power-manager package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: guidance-power-manager.po\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-10 10:27+0100\n"
+"PO-Revision-Date: 2008-05-10 14:57-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: guidance-power-manager.py:183 ui.py:66
+msgid "Do nothing"
+msgstr "Ná déan faic"
+
+#: guidance-power-manager.py:184
+msgid "Blank screen"
+msgstr "Scáileán folamh"
+
+#: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
+msgid "Suspend"
+msgstr "Cuir ar fionraí"
+
+#: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
+msgid "Hibernate"
+msgstr "Geimhrigh"
+
+#: guidance-power-manager.py:187 ui.py:93
+msgid "Shutdown"
+msgstr "Múchadh"
+
+#: guidance-power-manager.py:207
+msgctxt "CPU policy"
+msgid "Dynamic"
+msgstr "Dinimiciúil"
+
+#: guidance-power-manager.py:208
+msgctxt "CPU policy"
+msgid "Powersave"
+msgstr ""
+
+#: guidance-power-manager.py:209
+msgctxt "CPU policy"
+msgid "Performance"
+msgstr "Feidhmíocht"
+
+#: guidance-power-manager.py:337
+msgid "CPU policy"
+msgstr ""
+
+#: guidance-power-manager.py:523
+msgid "CPU frequency policy changed to dynamic."
+msgstr ""
+
+#: guidance-power-manager.py:525
+msgid "CPU frequency policy changed to performance."
+msgstr ""
+
+#: guidance-power-manager.py:527
+msgid "CPU frequency policy changed to powersave."
+msgstr ""
+
+#: guidance-power-manager.py:529
+msgid "CPU frequency policy changed to %1."
+msgstr ""
+
+#: guidance-power-manager.py:670
+msgid "The battery has been removed."
+msgstr ""
+
+#: guidance-power-manager.py:675
+msgid "The battery has been inserted."
+msgstr ""
+
+#: guidance-power-manager.py:712 guidance-power-manager.py:788
+msgid "<b>Battery:</b>"
+msgstr "<b>Cadhnra:</b>"
+
+#: guidance-power-manager.py:714
+msgid " fully charged"
+msgstr ""
+
+#: guidance-power-manager.py:716
+msgctxt "hours:minutes"
+msgid " %1:%2h to charge"
+msgstr ""
+
+#: guidance-power-manager.py:718
+msgctxt "hours:minutes"
+msgid " %1:%2h remaining"
+msgstr ""
+
+#: guidance-power-manager.py:761 guidance-power-manager.py:767
+msgid "Laptop lid is closed, hibernating now."
+msgstr "Tá clúdach an ríomhaire glúine dúnta, ag geimhriú anois."
+
+#: guidance-power-manager.py:763
+msgid "Laptop lid is closed, blanking screen now."
+msgstr "Tá clúdach an ríomhaire glúine dúnta, scáileán á bhánú anois."
+
+#: guidance-power-manager.py:765
+msgid "Laptop lid is closed, suspending now."
+msgstr "Tá clúdach an ríomhaire glúine dúnta, á chur ar fionraí anois."
+
+#: guidance-power-manager.py:769
+msgid "Laptop lid is closed, shutting down now."
+msgstr "Tá clúdach an ríomhaire glúine dúnta, á mhúchadh anois."
+
+#: guidance-power-manager.py:803
+#, python-format
+msgid "Battery %i"
+msgstr "Cadhnra %i"
+
+#: guidance-power-manager.py:817
+msgid "not present"
+msgstr "níl sé ann"
+
+#: guidance-power-manager.py:819
+msgid "Charging (%p%)"
+msgstr "Á Luchtú (%p%)"
+
+#: guidance-power-manager.py:823
+msgctxt "%1 is discharge rate in Watts"
+msgid "Discharging (%p%) - %1 W"
+msgstr "Á Dhíluchtú (%p%) - %1 W"
+
+#: guidance-power-manager.py:825
+msgid "Discharging (%p%)"
+msgstr "Á Dhíluchtú (%p%)"
+
+#: guidance-power-manager.py:827
+msgid "%p%"
+msgstr "%p%"
+
+#: guidance-power-manager.py:844
+msgid "<b>CPU Frequency:</b>"
+msgstr "<b>Minicíocht an LAP:</b>"
+
+#: guidance-power-manager.py:859
+msgid "Processor %1"
+msgstr "Próiseálaí %1"
+
+#: guidance-power-manager.py:896 guidance-power-manager.py:898
+msgctxt "%1 is one of the CPU policies"
+msgid "<b>CPU Frequency:</b> %1"
+msgstr "<b>Minicíocht an LAP:</b> %1"
+
+#: guidance-power-manager.py:968
+msgid "The AC adapter has been unplugged, switching to battery mode."
+msgstr "Díphlugáladh an cuibheoir SA, ag úsáid an chadhnra mar mhalairt."
+
+#: guidance-power-manager.py:979
+msgid "The AC adapter has been plugged in, switching to AC mode."
+msgstr "Plugáladh an cuibheoir SA isteach, ag tosú mód SA."
+
+#: guidance-power-manager.py:1006
+msgid "You are about to run out of battery power, doing nothing now."
+msgstr ""
+
+#: guidance-power-manager.py:1008
+msgid "You are about to run out of battery power, blanking screen now."
+msgstr ""
+
+#: guidance-power-manager.py:1010
+msgid "You are about to run out of battery power, suspending now."
+msgstr ""
+
+#: guidance-power-manager.py:1012
+msgid "You are about to run out of battery power, hibernating now."
+msgstr ""
+
+#: guidance-power-manager.py:1014
+msgid "You are about to run out of battery power, shutting down now."
+msgstr ""
+
+#: guidance-power-manager.py:1023
+msgid "You are low on battery power."
+msgstr ""
+
+#: guidance-power-manager.py:1051
+msgid "System idle for at least %1 minute, doing nothing now."
+msgid_plural "System idle for at least %1 minutes, doing nothing now."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#: guidance-power-manager.py:1053
+msgid "System idle for at least %1 minute, blanking screen now."
+msgid_plural "System idle for at least %1 minutes, blanking screen now."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#: guidance-power-manager.py:1055
+msgid "System idle for at least %1 minute, suspending now."
+msgid_plural "System idle for at least %1 minutes, suspending now."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#: guidance-power-manager.py:1057
+msgid "System idle for at least %1 minute, hibernating now."
+msgid_plural "System idle for at least %1 minutes, hibernating now."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#: guidance-power-manager.py:1059
+msgid "System idle for at least %1 minute, shutting down now."
+msgid_plural "System idle for at least %1 minutes, shutting down now."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#: guidance-power-manager.py:1071
+msgid "About"
+msgstr "Eolas"
+
+#: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
+msgid "Guidance Power Manager"
+msgstr ""
+
+#: guidance-power-manager.py:1165
+msgid "Applet for battery info and setting brightness"
+msgstr ""
+
+#: guidance-power-manager.py:1167
+msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
+msgstr ""
+
+#: ui.py:6
+msgid "General Settings"
+msgstr "Socruithe Ginearálta"
+
+#: ui.py:9
+msgid "Lock screen on resume"
+msgstr ""
+
+#: ui.py:12
+msgid "Mains Powered"
+msgstr ""
+
+#: ui.py:15 ui.py:36
+msgid "Brightness"
+msgstr "Gile"
+
+#: ui.py:18
+msgid ""
+"With this slider you can set the brightness when the system is plugged into "
+"the socket outlet"
+msgstr ""
+
+#: ui.py:21 ui.py:42
+msgid "When the system is idle for more than"
+msgstr ""
+
+#: ui.py:24 ui.py:48 ui.py:54
+msgid ""
+"To prevent data loss or other damage, you can have the system suspend or "
+"hibernate, so you do not accidentally run out of battery power. Configure "
+"the number of minutes below which the machine will run the configured action."
+msgstr ""
+
+#: ui.py:27 ui.py:51 ui.py:57
+msgid " min"
+msgstr " nóiméad"
+
+#: ui.py:30 ui.py:60
+msgid "CPU frequency scaling policy"
+msgstr ""
+
+#: ui.py:33
+msgid "Battery Powered"
+msgstr ""
+
+#: ui.py:39
+msgid "This slider controls the brightness when the system runs on batteries"
+msgstr ""
+
+#: ui.py:45
+msgid "When battery remaining time drops below"
+msgstr ""
+
+#: ui.py:63
+msgid "When Laptop Lid Closed"
+msgstr ""
+
+#: ui.py:69
+msgid "Lock screen"
+msgstr "Cuir an scáileán faoi ghlas"
+
+#: ui.py:72
+msgid "Suspend to Memory"
+msgstr "Cuir ar fionraí sa Chuimhne"
+
+#: ui.py:75
+msgid ""
+"Suspend is a sleep state, the system will consume only very little energy "
+"when suspended"
+msgstr ""
+
+#: ui.py:81
+msgid "Suspend to Disk"
+msgstr "Cuir ar fionraí ar an Diosca"
+
+#: ui.py:84
+msgid ""
+"Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
+"to power off completely"
+msgstr ""
+
+#: ui.py:90
+msgid "Halt the machine"
+msgstr "Stad an ríomhaire"
+
+#~ msgid "none"
+#~ msgstr "neamhní"

@@ -1,0 +1,19 @@
+A frontend to HAL's power features for KDE.
+Supports screen brightness, battery level, plugged/unplugged notices, laptop lid closing actions
+Original specification at https://wiki.kubuntu.org/KubuntuPowerManagement
+
+TODO
+    - In the KDE 3 version we had to keep polling HAL rather than listening for signals because the Python DBUS bindings
+      don't have Qt mainloop integration, this can and should be fixed for KDE 4
+    - Should also handle UPS and bluetooth batteries
+    - Handle global keyindings, brightness up/down etc
+    - It doesn't use solid, Thomas Gillespie is working on a C++ replacement which will
+    - pretty graphs of power usage, a la gnome-power-manager?  (could just start ksysguard)
+
+Dependencies
+    - Python
+    - HAL
+    - python-dbus
+    - PyQt4
+    - PyKDE4
+    - ixf86misc in modules/ needs some X libraries, -lX11 -lXxf86vm -lXext -lXrandr -lXrender -lXss
