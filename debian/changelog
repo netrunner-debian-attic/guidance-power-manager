@@ -1,3 +1,9 @@
+guidance-power-manager (4.3.3-1) unstable; urgency=low
+
+  * Initial Debian release.
+
+ -- Michael Meskes <meskes@debian.org>  Sat, 12 Dec 2009 21:49:31 +0100
+
 guidance-power-manager (4:4.3.0-0ubuntu1) karmic; urgency=low
 
   * New upstream release
