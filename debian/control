@@ -8,12 +8,13 @@ Build-Depends: cdbs (>= 0.4.52), debhelper (>= 7), python-support,
  python-dbus, x11proto-xf86vidmode-dev, x11proto-scrnsaver-dev,
  libxxf86vm-dev, libxss-dev, libxrandr-dev
 Standards-Version: 3.8.3
+Homepage: http://extragear.kde.org/apps/guidance/
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/guidance-power-manager.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/guidance-power-manager.git
 
 Package: guidance-power-manager
 Architecture: any
-Depends: ${python:Depends}, ${misc:Depends}, hal, python-kde4, python-dbus
+Depends: ${python:Depends}, ${misc:Depends}, ${shlibs:Depends}, hal, python-kde4, python-dbus
 Conflicts: guidance-backends
 Replaces: kde-guidance-powermanager (<< 4.3.0-1), guidance-backends
 Description: A frontend to HAL's power features for KDE
