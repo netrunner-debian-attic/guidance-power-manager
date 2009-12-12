@@ -6,7 +6,7 @@ Uploaders: Michael Meskes <meskes@debian.org>
 Build-Depends: cdbs (>= 0.4.52), debhelper (>= 7), python-support,
  kdelibs5-dev, python-qt4-dev, python-kde4-dev,
  python-dbus, x11proto-xf86vidmode-dev, x11proto-scrnsaver-dev,
- libxxf86vm-dev, libxss-dev, libxrandr-dev, quilt (>= 0.40)
+ libxxf86vm-dev, libxss-dev, libxrandr-dev
 Standards-Version: 3.8.3
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/guidance-power-manager.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/guidance-power-manager.git
