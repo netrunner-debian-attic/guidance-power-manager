@@ -1,17 +1,18 @@
-# translation of guidance-power-manager.po to Brazilian Portuguese
+# tradução do guidance-power-manager.po para Brazilian Portuguese
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Diniz Bortolotto <diniz.bortolotto@gmail.com>, 2008.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2009.
+# André Marcelo Alvarenga <andrealvarenga@gmx.net>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: guidance-power-manager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-03-10 10:27+0100\n"
-"PO-Revision-Date: 2009-03-10 11:59-0300\n"
-"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
-"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@mail.kde.org>\n"
+"PO-Revision-Date: 2009-09-27 12:34-0300\n"
+"Last-Translator: André Marcelo Alvarenga <andrealvarenga@gmx.net>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_br@mail.kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,7 +52,7 @@ msgstr "Economia de energia"
 #: guidance-power-manager.py:209
 msgctxt "CPU policy"
 msgid "Performance"
-msgstr "Performance"
+msgstr "Desempenho"
 
 #: guidance-power-manager.py:337
 msgid "CPU policy"
@@ -63,7 +64,7 @@ msgstr "A política de frequência da CPU mudou para dinâmica."
 
 #: guidance-power-manager.py:525
 msgid "CPU frequency policy changed to performance."
-msgstr "A política de frequência da CPU mudou para performance."
+msgstr "A política de frequência da CPU mudou para desempenho."
 
 #: guidance-power-manager.py:527
 msgid "CPU frequency policy changed to powersave."
@@ -92,7 +93,7 @@ msgstr " completamente carregada"
 #: guidance-power-manager.py:716
 msgctxt "hours:minutes"
 msgid " %1:%2h to charge"
-msgstr " %1:%2h até carregar"
+msgstr " %1:%2h para carregar"
 
 #: guidance-power-manager.py:718
 msgctxt "hours:minutes"
@@ -156,12 +157,12 @@ msgstr "<b>Frequência da CPU:</b> %1"
 
 #: guidance-power-manager.py:968
 msgid "The AC adapter has been unplugged, switching to battery mode."
-msgstr "O adaptador AC foi desconectado, mudando para o modo de bateria."
+msgstr "O adaptador CA foi desconectado, mudando para o modo de bateria."
 
 #: guidance-power-manager.py:979
 msgid "The AC adapter has been plugged in, switching to AC mode."
 msgstr ""
-"O adaptador AC foi conectado, mudando para o modo AC (Corrente Alternada)."
+"O adaptador CA foi conectado, mudando para o modo CA (Corrente Alternada)."
 
 #: guidance-power-manager.py:1006
 msgid "You are about to run out of battery power, doing nothing now."
@@ -223,7 +224,7 @@ msgstr "Sobre"
 
 #: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
 msgid "Guidance Power Manager"
-msgstr "Gerenciador de Energia Guidance"
+msgstr "Gerenciador de energia Guidance"
 
 #: guidance-power-manager.py:1165
 msgid "Applet for battery info and setting brightness"
@@ -235,7 +236,7 @@ msgstr "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
 
 #: ui.py:6
 msgid "General Settings"
-msgstr "Configurações Gerais"
+msgstr "Configurações gerais"
 
 #: ui.py:9
 msgid "Lock screen on resume"
@@ -243,7 +244,7 @@ msgstr "Bloquear a tela ao reativar"
 
 #: ui.py:12
 msgid "Mains Powered"
-msgstr "Ligado à Corrente"
+msgstr "Ligado à corrente"
 
 #: ui.py:15 ui.py:36
 msgid "Brightness"
@@ -282,7 +283,7 @@ msgstr "Política de ajuste da frequência da CPU"
 
 #: ui.py:33
 msgid "Battery Powered"
-msgstr "Ligado à Bateria"
+msgstr "Ligado à bateria"
 
 #: ui.py:39
 msgid "This slider controls the brightness when the system runs on batteries"
@@ -296,15 +297,15 @@ msgstr "Quando o tempo restante de bateria cair abaixo de"
 
 #: ui.py:63
 msgid "When Laptop Lid Closed"
-msgstr "Quando a Tampa do Laptop for Fechada"
+msgstr "Quando a tampa do laptop for fechada"
 
 #: ui.py:69
 msgid "Lock screen"
-msgstr "Bloquear a tela"
+msgstr "Bloquear tela"
 
 #: ui.py:72
 msgid "Suspend to Memory"
-msgstr "Suspender para a Memória"
+msgstr "Suspender para a memória"
 
 #: ui.py:75
 msgid ""
@@ -316,7 +317,7 @@ msgstr ""
 
 #: ui.py:81
 msgid "Suspend to Disk"
-msgstr "Suspender para o Disco"
+msgstr "Suspender para o disco"
 
 #: ui.py:84
 msgid ""

@@ -1,3 +1,5 @@
+# Translation of guidance-power-manager to Norwegian Nynorsk
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4\n"
@@ -10,6 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: nn\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #: guidance-power-manager.py:183 ui.py:66
 msgid "Do nothing"
