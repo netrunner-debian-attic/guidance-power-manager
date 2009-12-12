@@ -1,21 +1,19 @@
-# Lithuanian translations for l package.
-# Copyright (C) 2009 This_file_is_part_of_KDE
-# This file is distributed under the same license as the l package.
+# Lithuanian translations for guidance-power-manager package.
 # Andrius Štikonas <stikonas@gmail.com>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: l 10n\n"
+"Project-Id-Version: guidance-power-manager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-03-10 10:27+0100\n"
 "PO-Revision-Date: 2009-01-18 17:39+0200\n"
 "Last-Translator: Andrius Štikonas <stikonas@gmail.com>\n"
-"Language-Team: Lithuanian\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
-"100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10==1 && n%100!=11 ? 1 : n%"
+"10>=2 && (n%100<10 || n%100>=20) ? 2 : 3);\n"
 
 #: guidance-power-manager.py:183 ui.py:66
 msgid "Do nothing"
@@ -191,6 +189,7 @@ msgid_plural "System idle for at least %1 minutes, doing nothing now."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: guidance-power-manager.py:1053
 msgid "System idle for at least %1 minute, blanking screen now."
@@ -198,6 +197,7 @@ msgid_plural "System idle for at least %1 minutes, blanking screen now."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: guidance-power-manager.py:1055
 msgid "System idle for at least %1 minute, suspending now."
@@ -205,6 +205,7 @@ msgid_plural "System idle for at least %1 minutes, suspending now."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: guidance-power-manager.py:1057
 msgid "System idle for at least %1 minute, hibernating now."
@@ -212,6 +213,7 @@ msgid_plural "System idle for at least %1 minutes, hibernating now."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: guidance-power-manager.py:1059
 msgid "System idle for at least %1 minute, shutting down now."
@@ -219,10 +221,11 @@ msgid_plural "System idle for at least %1 minutes, shutting down now."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: guidance-power-manager.py:1071
 msgid "About"
-msgstr ""
+msgstr "Apie"
 
 #: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
 msgid "Guidance Power Manager"
@@ -234,11 +237,11 @@ msgstr ""
 
 #: guidance-power-manager.py:1167
 msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
-msgstr ""
+msgstr "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
 
 #: ui.py:6
 msgid "General Settings"
-msgstr ""
+msgstr "Bendri nustatymai"
 
 #: ui.py:9
 msgid "Lock screen on resume"
@@ -250,7 +253,7 @@ msgstr ""
 
 #: ui.py:15 ui.py:36
 msgid "Brightness"
-msgstr ""
+msgstr "Šviesumas"
 
 #: ui.py:18
 msgid ""
@@ -295,11 +298,11 @@ msgstr ""
 
 #: ui.py:69
 msgid "Lock screen"
-msgstr ""
+msgstr "Užrakinti ekraną"
 
 #: ui.py:72
 msgid "Suspend to Memory"
-msgstr ""
+msgstr "Sustabdyti į atmintį"
 
 #: ui.py:75
 msgid ""
@@ -309,7 +312,7 @@ msgstr ""
 
 #: ui.py:81
 msgid "Suspend to Disk"
-msgstr ""
+msgstr "Sustabdyti į diską"
 
 #: ui.py:84
 msgid ""
@@ -319,4 +322,4 @@ msgstr ""
 
 #: ui.py:90
 msgid "Halt the machine"
-msgstr ""
+msgstr "Išjungti kompiuterį"
