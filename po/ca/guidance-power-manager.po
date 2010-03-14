@@ -1,250 +1,235 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
+# Translation of guidance-power-manager.po to Catalan
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2 or later.
 #
-# Frederik Schwarzer <schwarzerf@gmail.com>, 2008, 2009.
-# Burkhard Lück <lueck@hube-lueck.de>, 2009.
+# Manuel Tortosa Moreno <manutortosa@gmail.com>, 2009.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: guidance-power-manager\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-03-10 10:27+0100\n"
-"PO-Revision-Date: 2009-12-13 01:50+0100\n"
-"Last-Translator: Frederik Schwarzer <schwarzerf@gmail.com>\n"
-"Language-Team: en_US <kde-i18n-de@kde.org>\n"
+"PO-Revision-Date: 2010-01-31 13:20+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: guidance-power-manager.py:183 ui.py:66
 msgid "Do nothing"
-msgstr "Nichts tun"
+msgstr "No facis res"
 
 #: guidance-power-manager.py:184
 msgid "Blank screen"
-msgstr "Leerer Bildschirm"
+msgstr "Pantalla en blanc"
 
 #: guidance-power-manager.py:185 guidance-power-manager.py:287 ui.py:78
 msgid "Suspend"
-msgstr "Ruhezustand"
+msgstr "Suspèn"
 
 #: guidance-power-manager.py:186 guidance-power-manager.py:293 ui.py:87
 msgid "Hibernate"
-msgstr "Hibernate"
+msgstr "Hiberna"
 
 #: guidance-power-manager.py:187 ui.py:93
 msgid "Shutdown"
-msgstr "Herunterfahren"
+msgstr "Atura"
 
 #: guidance-power-manager.py:207
 msgctxt "CPU policy"
 msgid "Dynamic"
-msgstr "Dynamisch"
+msgstr "Dinàmica"
 
 #: guidance-power-manager.py:208
 msgctxt "CPU policy"
 msgid "Powersave"
-msgstr "Stromsparen"
+msgstr "Estalvi d'energia"
 
 #: guidance-power-manager.py:209
 msgctxt "CPU policy"
 msgid "Performance"
-msgstr "Leistung"
+msgstr "Rendiment"
 
 #: guidance-power-manager.py:337
 msgid "CPU policy"
-msgstr "CPU-Strategie"
+msgstr "Política de la UCP"
 
 #: guidance-power-manager.py:523
 msgid "CPU frequency policy changed to dynamic."
-msgstr "CPU-Frequenz-Strategie geändert: Dynamisch."
+msgstr "S'ha canviat la política de freqüència de la UCP a dinàmica."
 
 #: guidance-power-manager.py:525
 msgid "CPU frequency policy changed to performance."
-msgstr "CPU-Frequenz-Strategie geändert: Leistung."
+msgstr "S'ha canviat la política de freqüència de la UCP a rendiment."
 
 #: guidance-power-manager.py:527
 msgid "CPU frequency policy changed to powersave."
-msgstr "CPU-Frequenz-Strategie geändert: Stromsparen."
+msgstr "S'ha canviat la política de freqüència de la UCP a estalvi d'energia."
 
 #: guidance-power-manager.py:529
 msgid "CPU frequency policy changed to %1."
-msgstr "CPU-Frequenz-Strategie geändert: %1."
+msgstr "S'ha canviat la política de freqüència de la UCP a %1."
 
 #: guidance-power-manager.py:670
 msgid "The battery has been removed."
-msgstr "Die Batterie wurde entfernt."
+msgstr "S'ha tret la bateria."
 
 #: guidance-power-manager.py:675
 msgid "The battery has been inserted."
-msgstr "Die Batterie wurde eingesetzt."
+msgstr "S'ha inserit la bateria."
 
 #: guidance-power-manager.py:712 guidance-power-manager.py:788
 msgid "<b>Battery:</b>"
-msgstr "<b>Akku:</b>"
+msgstr "<b>Bateria:</b>"
 
 #: guidance-power-manager.py:714
 msgid " fully charged"
-msgstr "Vollständig geladen"
+msgstr " completament carregada"
 
 #: guidance-power-manager.py:716
 msgctxt "hours:minutes"
 msgid " %1:%2h to charge"
-msgstr " %1:%2h zu laden"
+msgstr " %1:%2h per carregar-se"
 
 #: guidance-power-manager.py:718
 msgctxt "hours:minutes"
 msgid " %1:%2h remaining"
-msgstr " %1:%2h verbleibend"
+msgstr " %1:%2h restant"
 
 #: guidance-power-manager.py:761 guidance-power-manager.py:767
 msgid "Laptop lid is closed, hibernating now."
-msgstr "Notebook-Deckel wurde geschlossen. Ruhezustand wird eingeleitet."
+msgstr "S'ha tancat la tapa del portàtil, s'està hibernant."
 
 #: guidance-power-manager.py:763
 msgid "Laptop lid is closed, blanking screen now."
-msgstr "Notebook-Deckel wurde geschlossen. Bildschirm wird abgeschaltet."
+msgstr "S'ha tancat la tapa del portàtil, s'està esborrant la pantalla."
 
 #: guidance-power-manager.py:765
 msgid "Laptop lid is closed, suspending now."
-msgstr "Notebook-Deckel wurde geschlossen. Suspend wird eingeleitet."
+msgstr "S'ha tancat la tapa del portàtil, s'està suspenent."
 
 #: guidance-power-manager.py:769
 msgid "Laptop lid is closed, shutting down now."
-msgstr "Notebook-Deckel wurde geschlossen. Rechner wird heruntergefahren."
+msgstr "S'ha tancat la tapa del portàtil, s'està aturant."
 
 #: guidance-power-manager.py:803
 #, python-format
 msgid "Battery %i"
-msgstr "Akku %i"
+msgstr "Bateria %i"
 
 #: guidance-power-manager.py:817
 msgid "not present"
-msgstr "Nicht vorhanden"
+msgstr "no hi és"
 
 #: guidance-power-manager.py:819
 msgid "Charging (%p%)"
-msgstr "Laden (%p %)"
+msgstr "S'està carregant (%p%)"
 
 #: guidance-power-manager.py:823
 msgctxt "%1 is discharge rate in Watts"
 msgid "Discharging (%p%) - %1 W"
-msgstr "Entladen (%p %) - %1 W"
+msgstr "S'està descarregant (%p%) - %1 W"
 
 #: guidance-power-manager.py:825
 msgid "Discharging (%p%)"
-msgstr "Entladen (%p %)"
+msgstr "S'està descarregant (%p%)"
 
 #: guidance-power-manager.py:827
 msgid "%p%"
-msgstr "%p %"
+msgstr "%p%"
 
 #: guidance-power-manager.py:844
 msgid "<b>CPU Frequency:</b>"
-msgstr "<b>CPU-Frequenz:</b>"
+msgstr "<b>Freqüència UCP:</b>"
 
 #: guidance-power-manager.py:859
 msgid "Processor %1"
-msgstr "Prozessor %1"
+msgstr "Processador %1"
 
 #: guidance-power-manager.py:896 guidance-power-manager.py:898
 msgctxt "%1 is one of the CPU policies"
 msgid "<b>CPU Frequency:</b> %1"
-msgstr "<b>CPU-Frequenz:</b> %1"
+msgstr "<b>Freqüència UCP:</b> %1"
 
 #: guidance-power-manager.py:968
 msgid "The AC adapter has been unplugged, switching to battery mode."
 msgstr ""
-"Der Netzstecker wurde abgezogen. Es wird auf Batteriebetrieb umgeschaltet."
+"L'adaptador de corrent s'ha desendollat, s'està canviant al mode bateria."
 
 #: guidance-power-manager.py:979
 msgid "The AC adapter has been plugged in, switching to AC mode."
 msgstr ""
-"Der Netzstecker wurde eingesteckt. Es wird auf Netzbetrieb umgeschaltet."
+"L'adaptador de corrent s'ha endollat, s'està canviant al mode adaptador."
 
 #: guidance-power-manager.py:1006
 msgid "You are about to run out of battery power, doing nothing now."
-msgstr "Die Batterielaufzeit geht zuende. Es wird nichts unternommen."
+msgstr "Esteu a punt de quedar-vos sense bateria, no s'està fent res."
 
 #: guidance-power-manager.py:1008
 msgid "You are about to run out of battery power, blanking screen now."
-msgstr "Die Batterielaufzeit geht zuende. Der Bildschirm wird abgeschaltet."
+msgstr "Esteu a punt de quedar-vos sense bateria, s'està netejant la pantalla."
 
 #: guidance-power-manager.py:1010
 msgid "You are about to run out of battery power, suspending now."
-msgstr "Die Batterielaufzeit geht zuende. Suspend wird eingeleitet."
+msgstr "Esteu a punt de quedar-vos sense bateria, s'està suspenent."
 
 #: guidance-power-manager.py:1012
 msgid "You are about to run out of battery power, hibernating now."
-msgstr "Die Batterielaufzeit geht zuende. Ruhezustand wird eingeleitet."
+msgstr "Esteu a punt de quedar-vos sense bateria, s'està hibernant."
 
 #: guidance-power-manager.py:1014
 msgid "You are about to run out of battery power, shutting down now."
-msgstr "Die Batterielaufzeit geht zuende. Der Rechner wird heruntergefahren."
+msgstr "Esteu a punt de quedar-vos sense bateria, s'està aturant."
 
 #: guidance-power-manager.py:1023
 msgid "You are low on battery power."
-msgstr "Die Batterielaufzeit geht zuende."
+msgstr "El nivell de la bateria és baix."
 
 #: guidance-power-manager.py:1051
 msgid "System idle for at least %1 minute, doing nothing now."
 msgid_plural "System idle for at least %1 minutes, doing nothing now."
-msgstr[0] ""
-"Das System ist seit mindestens %1 Minute untätig. Es wird nichts unternommen."
-msgstr[1] ""
-"Das System ist seit mindestens %1 Minuten untätig. Es wird nichts "
-"unternommen."
+msgstr[0] "Sistema inactiu almenys %1 minut, no s'està fent res."
+msgstr[1] "Sistema inactiu almenys %1 minuts, no s'està fent res."
 
 #: guidance-power-manager.py:1053
 msgid "System idle for at least %1 minute, blanking screen now."
 msgid_plural "System idle for at least %1 minutes, blanking screen now."
-msgstr[0] ""
-"Das System ist seit mindestens %1 Minuten untätig. Der Bildschirm wird "
-"abgeschaltet."
-msgstr[1] ""
-"Das System ist seit mindestens %1 Minuten untätig. Der Bildschirm wird "
-"abgeschaltet."
+msgstr[0] "Sistema inactiu almenys %1 minut, s'està netejant la pantalla."
+msgstr[1] "Sistema inactiu almenys %1 minuts, s'està netejant la pantalla."
 
 #: guidance-power-manager.py:1055
 msgid "System idle for at least %1 minute, suspending now."
 msgid_plural "System idle for at least %1 minutes, suspending now."
-msgstr[0] ""
-"Das System ist seit mindestens %1 Minuten untätig. Suspend wird eingeleitet."
-msgstr[1] ""
-"Das System ist seit mindestens %1 Minuten untätig. Suspend wird eingeleitet."
+msgstr[0] "Sistema inactiu almenys %1 minut, s'està suspenent."
+msgstr[1] "Sistema inactiu almenys %1 minuts, s'està suspenent."
 
 #: guidance-power-manager.py:1057
 msgid "System idle for at least %1 minute, hibernating now."
 msgid_plural "System idle for at least %1 minutes, hibernating now."
-msgstr[0] ""
-"Das System ist seit mindestens %1 Minuten untätig. Ruhezustand wird "
-"eingeleitet."
-msgstr[1] ""
-"Das System ist seit mindestens %1 Minuten untätig. Ruhezustand wird "
-"eingeleitet."
+msgstr[0] "Sistema inactiu almenys %1 minut, s'està hibernant."
+msgstr[1] "Sistema inactiu almenys %1 minuts, s'està hibernant."
 
 #: guidance-power-manager.py:1059
 msgid "System idle for at least %1 minute, shutting down now."
 msgid_plural "System idle for at least %1 minutes, shutting down now."
-msgstr[0] ""
-"Das System ist seit mindestens %1 Minuten untätig. Der Rechner wird "
-"heruntergefahren."
-msgstr[1] ""
-"Das System ist seit mindestens %1 Minuten untätig. Der Rechner wird "
-"heruntergefahren."
+msgstr[0] "Sistema inactiu almenys %1 minut, s'està aturant."
+msgstr[1] "Sistema inactiu almenys %1 minuts, s'està aturant."
 
 #: guidance-power-manager.py:1071
 msgid "About"
-msgstr "Über"
+msgstr "Quant a"
 
 #: guidance-power-manager.py:1087 guidance-power-manager.py:1163 ui.py:3
 msgid "Guidance Power Manager"
-msgstr "Guidance Power Manager"
+msgstr "Gestor d'energia Guidance"
 
 #: guidance-power-manager.py:1165
 msgid "Applet for battery info and setting brightness"
-msgstr "Miniprogramm für Batterieinformationen und Helligkeitseinstellungen"
+msgstr ""
+"Miniaplicació d'informació de la bateria i establiment de la brillantor"
 
 #: guidance-power-manager.py:1167
 msgid "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
@@ -252,31 +237,31 @@ msgstr "Copyright 2006-2008 Sebastian Kügler, Canonical Ltd, Luka Renko"
 
 #: ui.py:6
 msgid "General Settings"
-msgstr "Allgemeine Einstellungen"
+msgstr "Arranjament general"
 
 #: ui.py:9
 msgid "Lock screen on resume"
-msgstr "Beim Wiedereinschalten Bildschirm sperren"
+msgstr "Bloqueja la pantalla en reprendre"
 
 #: ui.py:12
 msgid "Mains Powered"
-msgstr "An Netzspannung"
+msgstr "Connectat a la corrent"
 
 #: ui.py:15 ui.py:36
 msgid "Brightness"
-msgstr "Helligkeit"
+msgstr "Brillantor"
 
 #: ui.py:18
 msgid ""
 "With this slider you can set the brightness when the system is plugged into "
 "the socket outlet"
 msgstr ""
-"Mit diesem Schieberegler kontrollieren Sie die Helligkeit des Bildschirms, "
-"wenn das System mit Netzsspannung versorgt wird."
+"Amb aquest botó lliscant podeu definir la brillantor quan el sistema està "
+"connectat a un endoll elèctric"
 
 #: ui.py:21 ui.py:42
 msgid "When the system is idle for more than"
-msgstr "Wenn System länger untätig als"
+msgstr "Quan el sistema estigui inactiu per més de"
 
 #: ui.py:24 ui.py:48 ui.py:54
 msgid ""
@@ -284,79 +269,65 @@ msgid ""
 "hibernate, so you do not accidentally run out of battery power. Configure "
 "the number of minutes below which the machine will run the configured action."
 msgstr ""
-"Um Datenverlust oder anderen Beschädigungen vorzubeugen, können Sie Ihr "
-"System in den Ruhezustand fahren, so dass Sie nicht über die "
-"Batterielaufzeit laufen. Stellen Sie unten die Minuten ein, zu denen die "
-"eingestellten Aktionen ausgeführt werden."
+"Per a evitar una pèrdua de dades o altres danys, podeu tenir el sistema "
+"suspès o hibernat, de manera que la bateria no es quedi sense energia "
+"accidentalment. Configureu a sota el nombre de minuts que la màquina "
+"executarà l'acció configurada."
 
 #: ui.py:27 ui.py:51 ui.py:57
 msgid " min"
-msgstr "min"
+msgstr " min"
 
 #: ui.py:30 ui.py:60
 msgid "CPU frequency scaling policy"
-msgstr "CPU-Strategie zu Frequenz-Staffelung"
+msgstr "Política d'escalat de la freqüència de la UCP"
 
 #: ui.py:33
 msgid "Battery Powered"
-msgstr "Batteriebetrieben"
+msgstr "Alimentat per bateria"
 
 #: ui.py:39
 msgid "This slider controls the brightness when the system runs on batteries"
-msgstr "Dieser Schieberegler kontrolliert die Helligkeit im Batteriebetrieb"
+msgstr ""
+"Aquest botó lliscant controla la brillantor quan el sistema funciona amb "
+"bateria"
 
 #: ui.py:45
 msgid "When battery remaining time drops below"
-msgstr "Wenn die Batterielaufzeit kürzer ist als"
+msgstr "Quan el temps restant de la bateria baixi"
 
 #: ui.py:63
 msgid "When Laptop Lid Closed"
-msgstr "Wenn Notebook-Deckel geschlossen ist"
+msgstr "Quan es tanqui la tapa del portàtil"
 
 #: ui.py:69
 msgid "Lock screen"
-msgstr "Bildschirm sperren"
+msgstr "Bloqueja la pantalla"
 
 #: ui.py:72
 msgid "Suspend to Memory"
-msgstr "Ruhezustand im RAM"
+msgstr "Suspèn a la memòria"
 
 #: ui.py:75
 msgid ""
 "Suspend is a sleep state, the system will consume only very little energy "
 "when suspended"
-msgstr "Im Ruhezustand braucht das System nur sehr wenig Energie"
+msgstr ""
+"La suspensió és un estat d'adormit, el sistema només consumeix una quantitat "
+"molt petita d'energia quan està suspès"
 
 #: ui.py:81
 msgid "Suspend to Disk"
-msgstr "Ruhezustand auf Datenträger"
+msgstr "Suspèn al disc"
 
 #: ui.py:84
 msgid ""
 "Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
 "to power off completely"
 msgstr ""
-"Hibernate oder „Ruhezustand auf Datenträger“ ist ein Ruhezustand, der dem "
-"System ermöglicht, sich vollständig abzuschalten"
+"La hibernació o \"Suspèn al disc\" és un estat d'adormit profund, que permet "
+"al sistema desconnectar-se completament de l'energia."
 
 #: ui.py:90
 msgid "Halt the machine"
-msgstr "Rechner herunterfahren"
-
-#~ msgid "doing nothing"
-#~ msgstr "Tue nichts"
-
-#~ msgid "blanking screen"
-#~ msgstr "Leerer Bildschirm"
-
-#~ msgid "suspending"
-#~ msgstr "Gehe in Ruhezustand."
-
-#~ msgid "hibernating"
-#~ msgstr "Gehe in Hibernate."
-
-#~ msgid "shutting down"
-#~ msgstr "Fahre herunter."
-
-#~ msgid "none"
-#~ msgstr "Keine"
+msgstr "Atura la màquina"

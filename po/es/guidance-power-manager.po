@@ -3,18 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Enrique Matias Sanchez <cronopios@gmail.com>, 2008.
+# Israel Garcia Garcia <israelgarcia86@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: guidance-power-manager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-03-10 10:27+0100\n"
-"PO-Revision-Date: 2008-12-30 12:23+0100\n"
-"Last-Translator: Enrique Matias Sanchez <cronopios@gmail.com>\n"
-"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"PO-Revision-Date: 2010-01-30 15:21+0100\n"
+"Last-Translator: Israel Garcia Garcia <israelgarcia86@gmail.com>\n"
+"Language-Team: Español <kde-l10n-es@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: guidance-power-manager.py:183 ui.py:66
@@ -277,19 +278,13 @@ msgid "When the system is idle for more than"
 msgstr "Cuando el sistema esté inactivo por más de"
 
 #: ui.py:24 ui.py:48 ui.py:54
-#, fuzzy
-#| msgid ""
-#| "To prevent data loss or other damage, you can have the system suspend or "
-#| "hibernate, so you don't run accidentally out of battery power. Configure "
-#| "the number of minutes below which the machine will run the configured "
-#| "action."
 msgid ""
 "To prevent data loss or other damage, you can have the system suspend or "
 "hibernate, so you do not accidentally run out of battery power. Configure "
 "the number of minutes below which the machine will run the configured action."
 msgstr ""
 "Para impedir la pérdida de datos u otros daños, puede hacer que el sistema "
-"se suspenda o hiberne, de modo que se quede accidentalmente sinbatería. "
+"se suspenda o hiberne, de modo que se quede accidentalmente sin batería. "
 "Configure abajo el número de minutos tras los cuales el equipo iniciará la "
 "acción seleccionada."
 
@@ -339,10 +334,6 @@ msgid "Suspend to Disk"
 msgstr "Suspender a disco"
 
 #: ui.py:84
-#, fuzzy
-#| msgid ""
-#| "Hibernate or \"Suspend to Disk\" is a deep sleepstate, allowing the "
-#| "system to power off completely"
 msgid ""
 "Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
 "to power off completely"

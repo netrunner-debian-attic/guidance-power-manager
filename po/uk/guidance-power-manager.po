@@ -337,7 +337,7 @@ msgid ""
 "Hibernate or \"Suspend to Disk\" is a deep-sleep state, allowing the system "
 "to power off completely"
 msgstr ""
-"Гібернація або \"Сон зі збереженням на диск\" є станом глибокого сну, що "
+"Гібернація або «Сон зі збереженням на диск» є станом глибокого сну, що "
 "дозволяє системі взагалі обійтися без живлення"
 
 #: ui.py:90

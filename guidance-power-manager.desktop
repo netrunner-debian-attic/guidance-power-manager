@@ -1,7 +1,10 @@
 [Desktop Entry]
 Name=Power Manager
 Name[bg]=Управление на захранването
+Name[ca]=Gestor d'energia
+Name[ca@valencia]=Gestor d'energia
 Name[cs]=Správce napájení
+Name[da]=Strømstyring
 Name[de]=Energieverwaltung
 Name[el]=Διαχείριση ενέργειας
 Name[en_GB]=Power Manager
@@ -32,7 +35,10 @@ Name[zh_CN]=电源管理器
 Name[zh_TW]=電源管理
 Comment=Power management applet
 Comment[bg]=Аплет за управление на захранването
+Comment[ca]=Una miniaplicació gestora de l'energia
+Comment[ca@valencia]=Una miniaplicació gestora de l'energia
 Comment[cs]=Applet správy napájení
+Comment[da]=Applet til strømstyring
 Comment[de]=Miniprogramm zur Energieverwaltung
 Comment[el]=Μικροεφαρμογή διαχείρισης ενέργειας
 Comment[en_GB]=Power management applet
