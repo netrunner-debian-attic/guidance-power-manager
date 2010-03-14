@@ -88,7 +88,7 @@ msgstr "<b>Bateria:</b>"
 
 #: guidance-power-manager.py:714
 msgid " fully charged"
-msgstr " completamente carregada"
+msgstr " totalmente carregada"
 
 #: guidance-power-manager.py:716
 msgctxt "hours:minutes"
