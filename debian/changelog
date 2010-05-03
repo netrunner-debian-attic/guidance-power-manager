@@ -2,6 +2,7 @@ guidance-power-manager (4.4.0-1) experimental; urgency=low
 
   * New Upstream version 4.4.0
   * Bumped Standards-Version to 3.8.4, no changes needed.
+  * Added source/format file.
 
  -- Michael Meskes <meskes@debian.org>  Sun, 21 Mar 2010 13:23:43 +0100
 
