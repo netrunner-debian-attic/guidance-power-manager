@@ -59,5 +59,7 @@ These files are under a BSD License:
 On Debian systems, the complete text of the BSD License can be
 found in '/usr/share/common-licenses/BSD'. 
 
-The Debian packaging is (C) 2008, Guillaume Martres <smarter@ubuntu.com> and
-is licensed under the GPL, see above.
+The Debian packaging is copyright (C) 2008-2010, Guillaume Martres
+<smarter@ubuntu.com>, Michael Meskes <meskes@debian.org> and is licensed under
+the GPL, see above.
+
