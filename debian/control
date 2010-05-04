@@ -6,7 +6,7 @@ Uploaders: Michael Meskes <meskes@debian.org>
 Build-Depends: cdbs (>= 0.4.52), debhelper (>= 7), python-support,
  kdelibs5-dev, python-qt4-dev, python-kde4-dev (>= 4:4.4.2-1),
  python-dbus, x11proto-xf86vidmode-dev, x11proto-scrnsaver-dev,
- libxxf86vm-dev, libxss-dev, libxrandr-dev
+ libxxf86vm-dev, libxss-dev, libxrandr-dev, quilt (>= 0.40)
 Standards-Version: 3.8.4
 Homepage: http://extragear.kde.org/apps/guidance/
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/guidance-power-manager.git
