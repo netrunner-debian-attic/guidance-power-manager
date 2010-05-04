@@ -3,10 +3,10 @@ Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Michael Meskes <meskes@debian.org>
-Build-Depends: cdbs (>= 0.4.52), debhelper (>= 7), python-support,
- kdelibs5-dev, python-qt4-dev, python-kde4-dev (>= 4:4.4.2-1),
- python-dbus, x11proto-xf86vidmode-dev, x11proto-scrnsaver-dev,
- libxxf86vm-dev, libxss-dev, libxrandr-dev, quilt (>= 0.40)
+Build-Depends: cdbs (>= 0.4.52), debhelper (>= 7.4.15), python-support,
+ kdelibs5-dev, python-qt4-dev, python-kde4 (>= 4:4.4.2), python-dbus,
+ x11proto-xf86vidmode-dev, x11proto-scrnsaver-dev, libxxf86vm-dev, libxss-dev,
+ libxrandr-dev, quilt (>= 0.46-7~), cmake, python2.6-dev 
 Standards-Version: 3.8.4
 Homepage: http://extragear.kde.org/apps/guidance/
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/guidance-power-manager.git
