@@ -1,3 +1,9 @@
+guidance-power-manager (4.4.0-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Michael Meskes <meskes@debian.org>  Fri, 07 May 2010 12:47:12 +0200
+
 guidance-power-manager (4.4.0-1) experimental; urgency=low
 
   * New Upstream version 4.4.0
